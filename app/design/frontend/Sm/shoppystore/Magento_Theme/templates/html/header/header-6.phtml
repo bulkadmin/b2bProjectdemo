@@ -1,0 +1,72 @@
+<div class="header-container header-style-6">
+<div class="header-top">
+  <div class="container">
+   <div class="row">
+	<div class="pull-left col-sm-8 hidden-xs">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('policy-shop-6')->toHtml();?>
+	</div>	
+	<div class="pull-right  col-sm-4">
+			<div class="icon-action-top"><?php echo $block->getChildHtml('cart-header'); ?></div>
+			<div class="dropdown-block block-topsetting icon-action-top">
+				<div class="dropdown-toggle">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+				<div class="dropdown-list-setting">
+					<?php echo $block->getChildHtml('currency-header'); ?>						
+					<?php echo $block->getChildHtml('language-header'); ?>
+					<ul>
+						<li class="mn-my-account"><a class="myaccount-link" href="<?php echo $block->getUrl('customer/account'); ?>" title="<?php echo __('My Account');?>"><?php echo __('My Account');?></a></li>
+						<li class="mn-my-wishlist"><a class="my-wishlist" href="<?php echo $block->getUrl('wishlist')?>" title="<?php echo __('My Wishlist');?>"><?php echo __('My Wishlist');?></a></li>
+						<li class="mn-top-link-checkout"><a class="top-link-checkout" href="<?php echo $block->getUrl('checkout')?>" title="<?php echo __('Checkout');?>"><?php echo __('Checkout');?></a></li>
+						<?php 
+							$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+							$customerSession = $objectManager->get('Magento\Customer\Model\Session');
+						if($customerSession->isLoggedIn()) { ?>
+						<li class="mn-logout"><a class="popup-login" href="<?php echo $block->getUrl('customer/account/logout')?>" title="<?php echo __('Logout');?>"><?php echo __('Logout');?></a></li>
+						<?php }else { ?>
+						<li class="mn-login"><a class="popup-login" href="<?php echo $block->getUrl('customer/account/login')?>" title="<?php echo __('Login')?>"><?php echo __('Login')?></a></li>										
+						<?php }
+						?>
+					</ul>
+				</div> 
+		</div>
+		
+		<div class="header-search5 icon-action-top">
+			<div class="icon-search"><i class="fa fa-search"></i></div>
+			<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('search-box')->toHtml();?>
+		</div>
+
+	   </div>
+	</div>
+</div>
+</div>
+<div class="header-bottom">
+	<?php echo $block->getChildHtml('logo-header'); ?>
+	<div class="mainmenu">
+				<div class="navigation-container <?php ($_config->getGeneral('menu_style') == 'megamenu') ? "":" css-menu-wrap"; ?>">
+						<?php
+							if($_config->getGeneral('menu_style') == 'megamenu'){
+								echo $block->getChildHtml('navigation-header-megamenu');
+							} else {
+								echo $block->getChildHtml('navigation-header');
+							}
+						?>
+					<div class="navigation-mobile-container">
+						<?php echo $block->getChildHtml('navigation.mobile'); ?>
+					</div>
+				</div>
+
+		</div>
+		<?php echo $block->getLayout()->createBlock('Magento\Framework\View\Element\Template')->setTemplate('Magento_Theme::html/social.phtml')->toHtml(); ?>
+
+</div>
+</div>
+<script type="text/javascript">
+
+	require(['jquery'], function ($) {
+		$( ".icon-search" ).click(function() {
+		$('.sm-searchbox').slideToggle(200);
+		$(this).toggleClass('active');
+		});
+		});
+</script>

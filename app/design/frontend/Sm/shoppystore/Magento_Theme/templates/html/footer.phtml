@@ -1,0 +1,55 @@
+<?php
+	$_config = $this->helper('Sm\ShoppyStore\Helper\Data');
+	$_color = $_config->getGeneral('theme_color');
+	$_footer = $_config->getGeneral('footer_style');
+
+?>
+<?php 
+	if($_footer == "ft-1" || $_footer == null) {
+		include('footer/footer1.phtml'); 		
+	}
+	
+	if($_footer == "ft-2") {
+		include('footer/footer2.phtml'); 		
+	}
+	
+	if($_footer == "ft-3") {
+		include('footer/footer3.phtml'); 		
+	}
+	if($_footer == "ft-4") {
+		include('footer/footer4.phtml'); 		
+	}
+	if($_footer == "ft-5") {
+		include('footer/footer5.phtml'); 		
+	}
+	
+
+?>
+
+<!--GO TO TOP-->
+	<?php if($_config->getAdvanced('show_gototop')){ ?>
+		<a id="yt-totop" href="javascript:void(0)" title="Go to Top"></a>
+		<script type="text/javascript">
+			require(['jquery'], function ($) {
+				$("#yt-totop").hide();
+				$(function () {
+					var wh = $(window).height();
+					var whtml =  $(document).height();
+					$(window).scroll(function () {
+						if ($(this).scrollTop() > whtml/10) {
+							$('#yt-totop').fadeIn();
+						} else {
+							$('#yt-totop').fadeOut();
+						}
+					});
+					$('#yt-totop').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 800);
+						return false;
+					});
+				});
+			});
+		</script>
+		
+	<?php } ?>

@@ -1,0 +1,225 @@
+/*==POPUP LOGIN==*/
+
+#modal-login{
+  overflow-y: auto!important;
+}
+.mobile-login {
+	display: none !important;
+}
+body .block-popup-login {
+  margin: 170px auto 0;
+  width: 600px;
+  padding: 0px 20px 0px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  .fieldset > .field:not(.choice) > .control {
+  width:100%;
+  margin-bottom: 10px;
+ }
+  .close-login{
+    color: #fff;
+    font-size: 26px;
+    margin: 3px -10px 0 0;
+    opacity: 1;
+
+    &:hover{
+      opacity:0.9;
+    }
+
+    &:before{
+      font-family: fontawesome;
+    }
+  }
+
+  .tt_popup_login{
+     background-color: #242424;
+    border-bottom: 3px solid @color_theme;
+    height: 36px;
+    margin: 0 -20px;
+
+    strong{
+         color: #fff;
+        display: inline-block;
+        font-size: 133.33%;
+        line-height: 37px;
+        padding-left:60px;
+        padding-right: 10px;
+        position: relative;
+        text-transform: uppercase;
+        top: -4px;
+        background:url("../images/icon-login-popup.png") no-repeat 14px 5px;
+      &:before{
+          border-right: 20px solid transparent;
+          border-bottom:37px solid @color_theme;
+          content: "";
+          display: inline-block;
+          height: 0;
+          position: absolute;
+          right: -20px;
+          top: 0;
+          width: 0;
+      }
+    }
+  }
+
+  .block-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:normal;
+
+    .list-log li {
+      padding: 2px 0px 2px 14px;
+      position:relative;
+
+      &:before{
+        content:"";
+        display:inline-block;
+        width:5px;
+        height:5px;
+        border-radius:50%;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        background-color:#666666;
+        position:absolute;
+        left:0px;
+        top:10px;
+      }
+    }
+
+
+    .btn-reg-popup {
+      color: #fff;
+    display: inline-block;
+    font-size: 116.67%;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 15px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    background-color: @color_theme;
+    }
+
+    .col-reg {
+      width: 50%;
+      float: left;
+      min-height: 188px;
+
+      .list-log{
+        margin:0;
+      }
+    }
+
+    .col-reg.registered-account {
+      padding-right: 30px;
+      border-right: 1px solid #d1d1d1;
+    }
+
+    .col-reg.login-customer {
+      padding-left: 30px;
+
+      .note-reg {
+        margin: 8px 0px;
+      }
+
+      h2 {
+        font-size: 116.67%;
+        font-weight: bold;
+      }
+    }
+  }
+  .secondary {
+    width: 100%;
+    display: block;
+     text-align: left;
+     margin-bottom: 10px;
+  }
+  .action.login {
+    &:hover{.opacity(0.8);}
+  }
+  .email-input,
+  .pass-input{
+    position:relative;
+    margin: 0px;
+  }
+  .email-input:before {
+    background: url("../images/icon-username.png") no-repeat top left #f7f7f7;
+    content:"";
+    display:inline-block;
+    width:42px;
+    height:40px;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+
+  .pass-input:before {
+    background: url("../images/icon-pass.png") no-repeat top left #f7f7f7;
+    content:"";
+    display:inline-block;
+    width:42px;
+    height:40px;
+    position:absolute;
+    top:0px;
+    left:0px;
+  }
+
+  #mini-login:-webkit-autofill,
+  #mini-password:-webkit-autofill  {
+    -webkit-box-shadow: 0 0 0 1000px #fafafa inset!important;
+  }
+
+  .input-text {
+    border: none;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 0 5px 0px 52px;
+    height: 40px;
+    border:1px solid #d1d1d1;
+    background-color:#f7f7f7;
+    color: #909090;
+  }
+
+  .actions-toolbar {
+    clear: both;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0;
+    height: 42px;
+    position: relative;
+
+    .action.login {
+      height:42px;
+      font-size: 116.67%;
+      font-weight: bold;
+      background:#666 url("../images/icon-btn-login.png") no-repeat scroll 18px 10px;
+      padding: 0 25px 0 48px;
+    }
+
+    &:hover{
+      .btn-submit-login{
+        color: #fff;
+      }
+    }
+  }
+
+  .button-reg:hover {
+    text-decoration: underline;
+  }
+
+  .more-actions {
+    margin: 25px -20px 0px;
+
+    .ft-link-p {
+      background: #f3f3f3;
+      margin-bottom: 1px;
+      padding: 0 20px;
+    }
+  }
+
+  .more-actions .ft-link-p a {
+    display: inline-block;
+    padding: 10px 0px
+  }
+
+}

@@ -1,0 +1,247 @@
+.homepage-wrapper .boxed-container {
+	margin: 30px 0;
+}
+img.img-static {
+	.transition(.2s);
+	&:hover{
+		opacity: 0.8;
+	}
+}
+
+.static-image-1 {
+	.block-subscribe {
+		background: #262e31;
+		color: #fff;
+		padding: 30px 40px;
+		margin-bottom: 30px !important;
+		.title-home {
+			border: 0;
+			padding: 0;
+			margin: 0;
+			&:before {
+				background: none;
+				width: auto;
+				height: auto;
+				position: relative;
+				.font-awesome(f1d8,16px);
+				bottom: auto;
+				margin-right: 20px;
+			}
+			h2 {
+				color: #f9f9f9;
+			}
+		}
+		.desc {
+			font-size: 92.86%;
+			padding: 28px 0;
+		}
+		.input-box input {
+			height: 50px;
+			font-size: 92.86%;
+			float: left;
+			background-color: #fff;
+			border: 0;
+			border-radius: 0;
+			color: #8a96a2;
+			padding: 0 20px;
+			line-height: 50px;		
+			margin-bottom: 5px;
+		}
+		button.subscribe {
+			margin-top: 25px;
+			width: 140px;
+			font-size: 85.71%;
+			height: 41px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.latest-post-block {
+	.slider-latest-blog {
+	  .slider-blog {
+		padding-top: 25px;
+
+		.item {
+		  .date-blog {
+			float: left;
+			width: 75px;
+			padding-right: 25px;
+			text-align: right;
+			font-weight: 700;
+			color: @color_theme;
+			text-transform: uppercase;
+
+			.big-txt {
+			  font-size: 353.84%;
+			  line-height: 36px;
+			}
+
+			.normal-txt {
+			  font-size: 107.69%;
+			  line-height: 17px;
+			}
+		  }
+
+		  .blog-item-content {
+
+			.image-blog {
+				margin-bottom: 20px;
+				width: 100%;
+				float: left;
+			}
+
+			.info-blog {
+				margin-left: 0;
+				display: inline-block;
+				width: 100%;
+				position: relative;
+				padding-left: 90px;
+			  .postTitle {
+					padding-top: 2px;
+					h2{
+						font-size: 107.14%;
+						text-transform: uppercase;
+						font-weight: bold;
+						margin: 15px 0;
+					}
+					.postDate {
+						width: 70px;
+						height: 70px;
+						display: inline-block;
+						background: #c8c8c8;
+						text-align: center;
+						color: #fff;
+						position: absolute;
+						top: 0;
+						left: 0;					
+						.date {
+							font-size: 214.29%;
+							font-weight: bold;
+							line-height: 89%;
+							display: inline-block;
+							width: 100%;
+						}	
+						.month {
+							text-transform: uppercase;
+							display: inline-block;
+							width: 100%;
+							margin-top: 6px;
+						}			
+					}
+			  }
+				.postContent {
+					font-size: 92.86%;
+					color: #262e31;
+				}
+
+			  .info-post {
+				ul {
+				  list-style: none;
+				  display: inline-block;
+				  margin-bottom: 5px;
+
+				  li {
+					float: left;
+					color: #999999;
+					font-size: 92.30%;
+
+					&:first-child {
+					  margin-right: 20px;
+					}
+
+					a {
+					  color: #999999;
+
+					  &:hover {
+						color: @color_theme;
+					  }
+					}
+
+					&.post-user {
+					  &:after {
+						content: "|";
+						margin-left: 10px;
+					  }
+					}
+
+					&.post-cat {
+
+					  &:before {
+						.font-awesome(f07c, 14px);
+						margin-right: 5px;
+					  }
+					}
+				  }
+				}
+			  }
+
+			  .postContent {
+			  }
+
+			  .action-post {
+				padding-top: 40px;
+				margin-left: -3px;
+				.btn-readmore {
+					display: inline-block;
+					color: @color_theme;
+					.transition(.3s);
+					text-transform: uppercase;
+					font-size: 85.71%;
+					font-weight: bold;
+				  &:hover {
+					color: @color_theme_active;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	}  
+}  
+
+
+  .brand-block {
+    .list-brands {
+      list-style: none;
+      margin: 0 -15px;
+
+      li {
+        margin-bottom: 30px;
+		width: 20%;
+
+        a {
+          display: block;
+          border: 1px solid #e8e8e8;
+          .transition(.1s);
+		  overflow: hidden;
+
+          img {
+            width: 100%;
+          }
+
+          &:hover {
+            border-color: @color_theme;
+          }
+        }
+      }
+    }
+  }
+.cms-index-index{
+  .page-main{
+    padding-bottom: 0;
+    padding-top:0;
+  }
+}
+.box-margin-bottom {
+    margin-bottom: 30px;
+}
+@import 'home-style/_home-1.less';
+@import 'home-style/_home-2.less';
+@import 'home-style/_home-3.less';
+@import 'home-style/_home-4.less';
+@import 'home-style/_home-5.less';
+@import 'home-style/_home-6.less';
+@import 'home-style/_home-7.less';
+@import 'home-style/_reponsive-home.less';

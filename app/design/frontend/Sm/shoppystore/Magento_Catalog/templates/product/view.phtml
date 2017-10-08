@@ -1,0 +1,49 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+
+<?php
+	$_config = $this->helper('Sm\ShoppyStore\Helper\Data');
+?>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 image-box-detail">
+		<?php echo $block->getChildHtml('product.info.media'); ?>
+	</div>
+	
+	<div class="col-lg-6 col-md-6 info-box-detail">
+		<?php echo $block->getChildHtml('product.info.main'); ?>
+		<!-- <div class="social-detail">
+		
+				<div class="addthis_toolbox addthis_default_style ">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+				<iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html" style="width:95px; height:20px; float:left;"></iframe>						                              
+				<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+				<a class="addthis_counter addthis_pill_style"></a>						
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+				<?php //if($_product->getTypeId() === 'bundle'){ } else{?>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-529be2200cc72db5"></script>
+				<?php //} ?>
+			
+		</div> -->
+	</div>
+	<div style="clear:both"></div>
+	<div class="details-bottom">
+	<div class="col-lg-3 col-md-3 related-bottom-wrapper">
+	<?php echo $block->getChildHtml('related.product'); ?>
+		
+		
+	</div>
+	<div class="col-lg-9 col-md-9 detail-bottom-wrapper">
+		<?php echo $block->getChildHtml('detail.bottom'); ?>
+		<?php echo $block->getChildHtml('upsell.product'); ?>	
+	</div>	
+	</div>
+	
+</div>

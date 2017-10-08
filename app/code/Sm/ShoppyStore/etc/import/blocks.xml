@@ -1,0 +1,2169 @@
+<?xml version="1.0"?>
+<root>
+  <blocks>
+    <cms_item>
+      <title>Footer Links Block</title>
+      <identifier>footer_links_block</identifier>
+      <content><![CDATA[<ul class="footer links">
+    <li class="nav item"><a href="{{store url="about-us"}}">About us</a></li>
+    <li class="nav item"><a href="{{store url="customer-service"}}">Customer Service</a></li>
+</ul>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Contact us info</title>
+      <identifier>contact-us-info</identifier>
+      <content><![CDATA[<div class="contact-info cms-content">
+   <p class="cms-content-important">We love hearing from you, our Luma customers. Please contact us about anything at all. Your latest passion, unique health experience or request for a specific product. We’ll do everything we can to make your Luma experience unforgettable every time. Reach us however you like</p>
+   <div class="block block-contact-info">
+       <div class="block-title">
+           <strong>Contact Us Info</strong>
+       </div>
+       <div class="block-content">
+           <div class="box box-phone">
+               <strong class="box-title">
+                   <span>Phone</span>
+               </strong>
+               <div class="box-content">
+                   <span class="contact-info-number">1-800-403-8838</span>
+                   <p>Call the Luma Helpline for concerns, product questions, or anything else. We’re here for you 24 hours a day - 365 days a year.</p>
+               </div>
+           </div>
+           <div class="box box-design-inquiries">
+               <strong class="box-title">
+                   <span>Apparel Design Inquiries</span>
+               </strong>
+               <div class="box-content">
+                   <p>Are you an independent clothing designer? Feature your products on the Luma website! Please direct all inquiries via email to: <a href="mailto:cs@luma.com">cs@luma.com</a></p>
+               </div>
+           </div>
+           <div class="box box-press-inquiries">
+               <strong class="box-title">
+                   <span>Press Inquiries</span>
+               </strong>
+               <div class="box-content">
+                   <p>Please direct all media inquiries via email to: <a href="mailto:pr@luma.com">pr@luma.com</a></p>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>New Left Menu Block</title>
+      <identifier>new-left-menu-block</identifier>
+      <content><![CDATA[<div class="categories-menu"><strong class="title"><span>New in women's</span></strong>
+<ul class="items">
+    <li class="item"><a href="{{store url=""}}women/tops-women/hoodies-and-sweatshirts-women.html">Hoodies & Sweatshirts</a></li>
+    <li class="item"><a href="{{store url=""}}women/tops-women/jackets-women.html">Jackets</a></li>
+    <li class="item"><a href="{{store url=""}}women/tops-women/tees-women.html">Tees</a></li>
+    <li class="item"><a href="{{store url=""}}women/tops-women/tanks-women.html">Bras & Tanks</a></li>
+    <li class="item"><a href="{{store url=""}}women/bottoms-women/pants-women.html">Pants</a></li>
+    <li class="item"><a href="{{store url=""}}women/bottoms-women/shorts-women.html">Shorts</a></li>
+</ul>
+
+<strong class="title"><span>New in men's</span></strong>
+<ul class="items">
+    <li class="item"><a href="{{store url=""}}men/tops-men/hoodies-and-sweatshirts-men.html">Hoodies & Sweatshirts</a></li>
+    <li class="item"><a href="{{store url=""}}men/tops-men/jackets-men.html">Jackets</a></li>
+    <li class="item"><a href="{{store url=""}}men/tops-men/tees-men.html">Tees</a></li>
+    <li class="item"><a href="{{store url=""}}men/tops-men/tanks-men.html">Tanks</a></li>
+    <li class="item"><a href="{{store url=""}}men/bottoms-men/pants-men.html">Pants</a></li>
+    <li class="item"><a href="{{store url=""}}men/bottoms-men/shorts-men.html">Shorts</a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Women Block</title>
+      <identifier>women-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <a href="{{store url=""}}women.html" class="block-promo womens-main">
+        <img src="{{media url="wysiwyg/womens/womens-main.jpg"}}" alt="" />
+        <span class="content">
+            <span class="info">New Luma Yoga Collection</span>
+            <strong class="title">Yoga is ancient<br />Clothing shouldn’t be</strong>
+            <span class="more button">Shop New Yoga</span>
+        </span>
+    </a>
+    <div class="block-promo-wrapper block-promo-2columns">
+        <a href="{{store url=""}}women/tops-women/tees-women.html" class="block-promo womens-t-shirts">
+            <span class="content">
+                <strong class="title">You can’t have too many tees</strong>
+                <img src="{{media url="wysiwyg/womens/womens-t-shirts.png"}}" alt="" />
+                <span class="info">4 tees for the price of 3. Right now</span>
+                <span class="more icon">Women’s Tees</span>
+            </span>
+        </a>
+        <a href="{{store url=""}}women/bottoms-women/pants-women.html" class="block-promo womens-pants">
+            <img src="{{media url="wysiwyg/womens/womens-pants.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">Hot pants<br />Hot deals</strong>
+                <span class="info"><span>20% OFF</span>Luma pants when you shop today*</span>
+                <span class="more icon">Shop Pants</span>
+            </span>
+        </a>
+    </div>
+    <a href="{{store url=""}}collections/erin-recommends.html" class="block-promo womens-erin">
+        <span class="content">
+            <strong class="title">What would Erin wear?</strong>
+            <span class="info">It’s no secret: see Luma founder Erin Renny’s wardrobe go-to’s</span>
+            <span class="more icon">Shop Erin Recommends</span>
+        </span>
+        <span class="image"><img src="{{media url="wysiwyg/womens/womens-erin.jpg"}}" alt="" /></span>
+    </a>
+    <div class="block-promo-wrapper block-promo-3columns">
+        <a href="{{store url=""}}women/bottoms-women/pants-women.html" class="block-promo womens-category-pants">
+            <span class="content">
+                <strong class="title">Luma pants</strong>
+                <span class="info">Pants for yoga, gym and outdoors</span>
+                <span class="more icon">Shop Pants</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/womens/womens-category-pants.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}women/bottoms-women/shorts-women.html" class="block-promo womens-category-shorts">
+            <span class="content">
+                <strong class="title">Luma shorts</strong>
+                <span class="info">Exercise comfort</span>
+                <span class="more icon">Shop Shorts</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/womens/womens-category-shorts.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}women/tops-women/tanks-women.html" class="block-promo womens-category-tanks">
+            <span class="content">
+                <strong class="title">Luma Bras<br />Tanks</strong>
+                <span class="info">Stock up for summer!</span>
+                <span class="more icon">Shop Now</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/womens/womens-category-tanks.jpg"}}" alt="" /></span>
+        </a>
+    </div>
+</div>
+<div class="content-heading">
+    <h2 class="title">Hot Sellers</h2>
+    <p class="info">Favorites from Luma shoppers</p>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_per_page="4" products_per_page="4" products_count="4" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`()`;s:5:`value`;s:22:`WS12, WT09, WH05, WP12`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Training Block</title>
+      <identifier>training-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+
+    <a href="{{store url=""}}training.html" class="block-promo training-main">
+        <img src="{{media url="wysiwyg/training/training-main.jpg"}}" alt="" />
+        <span class="content">
+            <strong class="title">
+                <span>Motivate</span> yourself.<br />
+                <span>Reach</span> goals.<br />
+                <span>Boost</span> ambition.<br />
+                <span>Max</span> fitness.<br />
+                <span>Upgrade</span> lifestyle.
+            </strong>
+        </span>
+    </a>
+    <a href="{{store url=""}}collections/erin-recommends.html" class="block-promo training-erin">
+        <img src="{{media url="wysiwyg/training/training-erin.jpg"}}" alt="" />
+        <span class="content">
+            <strong class="title">Before creating Luma, pro trainer Erin Renny helped world-class athletes reach peak fitness</strong>
+            <span class="info">Hand-selected by Erin, our training downloads reflect a commitment to yoga, health and wellness.</span>
+        </span>
+    </a>
+    <a href="{{store url=""}}training/training-video.html" class="block-promo training-on-demand">
+        <span class="content">
+            <span class="icon download"><span>Download</span></span>
+            <strong class="title">Training on demand</strong>
+            <span class="info">Luma downloads to inspire and&nbsp;challenge.<br />Your space, your pace</span>
+            <span class="more icon">Videos</span>
+        </span>
+    </a>
+</div>
+<div class="content-heading">
+    <h2 class="title">Top Videos</h2>
+    <p class="info">Stream free with subscription</p>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_count="4" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`()`;s:5:`value`;s:38:`241-MB08, 240-LV05, 240-LV09, 240-LV07`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Men Block</title>
+      <identifier>men-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <a href="{{store url=""}}men.html" class="block-promo mens-main">
+        <img src="{{media url="wysiwyg/mens/mens-main.jpg"}}" alt="" />
+        <span class="content">
+            <span class="info">Luma’s Performance Fabric collection</span>
+            <strong class="title">Going the extra mile just got extra comfortable</strong>
+            <span class="more button">Shop Performance</span>
+        </span>
+    </a>
+    <div class="block-promo-wrapper block-promo-2columns">
+        <a href="{{store url=""}}men/tops-men/tees-men.html" class="block-promo mens-t-shirts">
+            <span class="content">
+                <strong class="title">Save up to $24!</strong>
+                <img src="{{media url="wysiwyg/mens/mens-t-shirts.png"}}" alt="" />
+                <span class="info">Buy 3 Luma tees, get 4 instead</span>
+                <span class="more icon">Shop Tees</span>
+            </span>
+        </a>
+        <a href="{{store url=""}}men/bottoms-men/pants-men.html" class="block-promo mens-pants">
+            <img src="{{media url="wysiwyg/mens/mens-pants.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">Last chance<br />for pants</strong>
+                <span class="info">Take <span>20% OFF</span>and save bigtime*</span>
+                <span class="more icon">Shop Pants</span>
+            </span>
+        </a>
+    </div>
+    <div class="block-promo-wrapper block-promo-3columns">
+        <a href="{{store url=""}}men/bottoms-men/shorts-men.html" class="block-promo mens-category-shorts">
+            <span class="content">
+                <strong class="title">Luma shorts</strong>
+                <span class="info">Cool it now</span>
+                <span class="more icon">Shop Shorts</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/mens/mens-category-shorts.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}men/tops-men/tees-men.html" class="block-promo mens-category-tees">
+            <span class="content">
+                <strong class="title">Luma tees</strong>
+                <span class="info">Grab a tee or two!</span>
+                <span class="more icon">Shop Tees</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/mens/mens-category-tees.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}men/tops-men/hoodies-and-sweatshirts-men.html" class="block-promo mens-category-hoodies">
+            <span class="content">
+                <strong class="title">Luma hoodies</strong>
+                <span class="info">Dress for fitness</span>
+                <span class="more icon">Shop Hoodies</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/mens/mens-category-hoodies.jpg"}}" alt="" /></span>
+        </a>
+    </div>
+</div>
+<div class="content-heading">
+    <h2 class="title">Hot Sellers</h2>
+    <p class="info">Favorites from Luma shoppers</p>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_per_page="4" products_count="4" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`()`;s:5:`value`;s:23:`MT07, MH07, MSH03, MP03`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Gear Block</title>
+      <identifier>gear-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <a href="{{store url=""}}gear.html" class="block-promo gear-main">
+        <img src="{{media url="wysiwyg/gear/gear-main.jpg"}}" alt="" />
+        <span class="content">
+            <strong class="title">Sprite Yoga Companion Kit</strong>
+            <span class="info">Save up to 20% on a&nbsp;bundle!</span>
+            <span class="more button">Shop Yoga Kit</span>
+        </span>
+    </a>
+    <div class="block-promo-wrapper block-promo-2columns">
+        <a href="{{store url=""}}gear/fitness-equipment.html" class="block-promo gear-fitnes">
+            <img src="{{media url="wysiwyg/gear/gear-fitnes.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">Loosen Up</strong>
+                <span class="info">Extend your training with yoga straps, tone bands,<br />and jump ropes</span>
+                <span class="more icon">Shop Fitness</span>
+            </span>
+        </a>
+        <a href="{{store url=""}}gear/fitness-equipment.html" class="block-promo gear-equipment">
+            <img src="{{media url="wysiwyg/gear/gear-equipment.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">Here’s to you!</strong>
+                <span class="info">$4 Luma water bottle<br />(save&nbsp;70%)</span>
+                <span class="note">Enter promo code H2O<br />at check out</span>
+            </span>
+        </a>
+    </div>
+    <div class="block-promo-wrapper block-promo-3columns">
+        <a href="{{store url=""}}gear/bags.html" class="block-promo gear-category-bags">
+            <span class="content">
+                <strong class="title">Tote, cart or carry</strong>
+                <span class="info">Luma bags go the distance</span>
+                <span class="more icon">Shop Bags</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/gear/gear-category-bags.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}gear/fitness-equipment.html" class="block-promo gear-category-equipment">
+            <span class="content">
+                <strong class="title">Let’s get after it!</strong>
+                <span class="info">Luma gym equipment fits your goals and&nbsp;style</span>
+                <span class="more icon">Shop Equipment</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/gear/gear-category-equipment.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}gear/watches.html" class="block-promo gear-category-watches">
+            <span class="content">
+                <strong class="title">Luma watches</strong>
+                <span class="info">Keeping pace has never been more stylish</span>
+                <span class="more icon">Shop Watches</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/gear/gear-category-watches.jpg"}}" alt="" /></span>
+        </a>
+    </div>
+</div>
+<div class="content-heading">
+    <h2 class="title">Hot Sellers</h2>
+    <p class="info">Favorites from Luma shoppers</p>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_per_page="4" products_count="4" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`()`;s:5:`value`;s:35:`24-MB02, 24-WB04, 24-UG06, 24-WG080`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>New Block</title>
+      <identifier>new-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <a href="{{store url=""}}collections/yoga-new.html" class="block-promo new-main">
+        <img src="{{media url="wysiwyg/new/new-main.jpg"}}" alt="" />
+        <span class="content">
+            <span class="info">New Luma Yoga Collection</span>
+            <strong class="title">The very latest yoga styles  plus twists on timeless classics</strong>
+            <span class="more button">Shop New Yoga</span>
+        </span>
+    </a>
+
+    <div class="block-promo-wrapper block-promo-2columns">
+        <a href="{{store url=""}}collections/performance-new.html" class="block-promo new-performance">
+            <img src="{{media url="wysiwyg/new/new-performance.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">Whatever day brings</strong>
+                <span class="info">Luma Cocona<sup>™</sup> for breathability, CoolTech<sup>™</sup> for wicking, or a blend of&nbsp;both.</span>
+                <span class="more icon">Performance Fabrics</span>
+            </span>
+        </a>
+        <a href="{{store url=""}}collections/eco-new.html" class="block-promo new-eco">
+            <img src="{{media url="wysiwyg/new/new-eco.jpg"}}" alt="" />
+            <span class="content">
+                <strong class="title">A sense of renewal</strong>
+                <span class="info">Enjoy comfort of body and mind with Luma eco-friendly choices</span>
+                <span class="more icon">Shop Eco Friendly </span>
+            </span>
+        </a>
+    </div>
+</div>
+<div class="content-heading">
+    <h2 class="title">Luma's Latest</h2>
+    <p class="info">Just in time for the new season!</p>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_per_page="4" products_count="4" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`new`;s:8:`operator`;s:2:`==`;s:5:`value`;s:1:`1`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Home Page Block</title>
+      <identifier>home-page-block</identifier>
+      <content><![CDATA[<div class="blocks-promo"><a class="block-promo home-main" href="{{store url=""}}collections/yoga-new.html"> <img src="{{media url="wysiwyg/home/home-main.jpg"}}" alt="" /> <span class="content bg-white"> <span class="info">New Luma Yoga Collection</span> <strong class="title">Get fit and look fab in new seasonal styles</strong> <span class="action more button">Shop New Yoga</span> </span> </a>
+<div class="block-promo-wrapper block-promo-hp"><a class="block-promo home-pants" href="{{store url=""}}promotions/pants-all.html"> <img src="{{media url="wysiwyg/home/home-pants.jpg"}}" alt="" /> <span class="content"> <strong class="title">20% OFF</strong> <span class="info">Luma pants when you shop today*</span> <span class="action more icon">Shop Pants</span> </span> </a> <a class="block-promo home-t-shirts" href="{{store url=""}}promotions/tees-all.html"> <span class="image"><img src="{{media url="wysiwyg/home/home-t-shirts.png"}}" alt="" /></span> <span class="content"> <strong class="title">Even more ways to mix and match</strong> <span class="info">Buy 3 Luma tees get a 4th free</span> <span class="action more icon">Shop Tees</span> </span> </a> <a class="block-promo home-erin" href="{{store url=""}}collections/erin-recommends.html"> <img src="{{media url="wysiwyg/home/home-erin.jpg"}}" alt="" /> <span class="content"> <strong class="title">Take it from Erin</strong> <span class="info">Luma founder Erin Renny shares her favorites!</span> <span class="action more icon">Shop Erin Recommends</span> </span> </a> <a class="block-promo home-performance" href="{{store url=""}}collections/performance-fabrics.html"> <img src="{{media url="wysiwyg/home/home-performance.jpg"}}" alt="" /> <span class="content bg-white"> <strong class="title">Science meets performance</strong> <span class="info">Wicking to raingear, Luma covers&nbsp;you</span> <span class="action more icon">Shop Performance</span> </span> </a> <a class="block-promo home-eco" href="{{store url=""}}collections/eco-friendly.html"> <img src="{{media url="wysiwyg/home/home-eco.jpg"}}" alt="" /> <span class="content bg-white"> <strong class="title">Twice around, twice as nice</strong> <span class="info">Find conscientious, comfy clothing in our eco-friendly collection</span> <span class="action more icon">Shop Eco-Friendly</span> </span> </a></div>
+</div>
+<div class="content-heading">
+<h2 class="title">Hot Sellers</h2>
+<p class="info">Here is what`s trending on Luma right now</p>
+</div>
+<p>{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_per_page="8" products_count="8" template="product/widget/content/grid.phtml" conditions_encoded="a:2:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`sku`;s:8:`operator`;s:2:`()`;s:5:`value`;s:60:`WS12, WT09, MT07, MH07, 24-MB02, 24-WB04, 241-MB08, 240-LV05`;]]"}}</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Performance Fabrics Block</title>
+      <identifier>performance-fabrics-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+   <div class="block-promo collection-performance">
+       <img src="{{media url="wysiwyg/collection/collection-performance.jpg"}}" alt="" />
+       <span class="content">
+           <strong class="title">You're the best</strong>
+           <span class="info">Make a strong statement with Luma Performance sportswear</span>
+       </span>
+   </div>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_count="5" template="product/widget/content/grid.phtml" conditions_encoded="a:3:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:18:`performance_fabric`;s:8:`operator`;s:2:`==`;s:5:`value`;s:1:`1`;]s:4:`1--2`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`new`;s:8:`operator`;s:2:`==`;s:5:`value`;s:1:`1`;]]"}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Eco Friendly Block</title>
+      <identifier>eco-friendly-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <div class="block-promo collection-eco">
+        <img src="{{media url="wysiwyg/collection/collection-eco.jpg"}}" alt="" />
+        <span class="content">
+            <strong class="title">Eco-friendly, ego-friendly</strong>
+            <span class="info">Recycled polyester, hemp and organic cotton apperel</span>
+        </span>
+    </div>
+</div>
+{{widget type="Magento\\CatalogWidget\\Block\\Product\\ProductsList" products_count="5" template="product/widget/content/grid.phtml" conditions_encoded="a:3:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]s:4:`1--1`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:14:`eco_collection`;s:8:`operator`;s:2:`==`;s:5:`value`;s:1:`1`;]s:4:`1--2`;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`;s:9:`attribute`;s:3:`new`;s:8:`operator`;s:2:`==`;s:5:`value`;s:1:`1`;]]"}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Giftcard Block</title>
+      <identifier>giftcard-block</identifier>
+      <content><![CDATA[<div class="blocks-promo">
+    <div class="block-promo-wrapper block-promo-2columns">
+        <a href="{{store url=""}}" class="block-promo giftcard-mailed">
+            <span class="content">
+                <strong class="title">Give it away now</strong>
+                <span class="info">A gift card always beats a blind guess</span>
+                <span class="more icon">Mailed Gift Cards</span>
+            </span>
+            <span class="image"><img src="{{media url="wysiwyg/giftcards/giftcard-mailed.jpg"}}" alt="" /></span>
+        </a>
+        <a href="{{store url=""}}" class="block-promo giftcard-virtual">
+            <img src="{{media url="wysiwyg/giftcards/giftcard-virtual.png"}}" alt="" />
+            <span class="content">
+                <strong class="title">Can't decide?</strong>
+                <span class="info">Just remember it's the card that counts</span>
+                <span class="more icon">Virtual Gift Cards</span>
+            </span>
+        </a>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Login Info Block</title>
+      <identifier>login-data</identifier>
+      <content><![CDATA[<div class="message info" style="margin-top: 50px;">
+    <p><strong>Try Demo Customer Access</strong></p>
+    <p><span style="display:inline-block; width: 80px; padding-right: 10px;">Email:</span>roni_cost@example.com</p>
+    <p><span style="display:inline-block; width: 80px; padding-right: 10px;">Password:</span>roni_cost@example.com</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Our Shop Footer</title>
+      <identifier>ourshop-footer</identifier>
+      <content><![CDATA[<div class="footer-block">
+<div class="footer-title">
+<h3>Our Shops</h3>
+</div>
+<div class="footer-block-content">
+<ul class="list-links">
+<li><a title="Product Support" href="#">Product Support</a></li>
+<li><a title="PC Setup &amp; Support Services" href="#">Setup &amp; Support Services</a></li>
+<li><a title="Extended Service Plans" href="#">Extended Service Plans</a></li>
+<li><a title="Community" href="#">Community</a></li>
+<li><a title="Product Manuals" href="#">Product Manuals</a></li>
+<li><a title="Product Registration" href="#">Product Registration</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Orders Footer</title>
+      <identifier>orders-footer</identifier>
+      <content><![CDATA[<div class="footer-block">
+							<div class="footer-title">
+								<h3>Orders</h3>
+							</div>
+							
+							<div class="footer-block-content">
+								<ul class="list-links">
+									<li><a href="#" title="My Account">My Account</a></li>
+									<li><a href="#" title="Order Tracking">Order Tracking</a></li>
+									<li><a href="#" title="Watch List">Watch List</a></li>
+									<li><a href="#" title="Customer Service">Customer Service</a></li>
+									<li><a href="#" title="Returns / Exchanges">Returns / Exchanges</a></li>
+									<li><a href="#" title="FAQs">FAQs</a></li>
+								</ul>
+							</div>
+						</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Info Footer</title>
+      <identifier>contact-footer</identifier>
+      <content><![CDATA[<div class="footer-block">
+							<div class="footer-title">
+								<h3>Contact Info</h3>
+							</div>
+							
+							<div class="footer-block-content">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								
+								<ul class="list-links">
+									<li>No 1123, Marmora Road, Glasgow, D04 89GR.</li>
+									<li>(801) 2345 - 6788 / (801) 2345 - 6789</li>
+									<li>support@styleshop.com</li>
+								</ul>
+							</div>
+						</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Footer Links</title>
+      <identifier>footer-links</identifier>
+      <content><![CDATA[<ul class="links-bottom">
+	<li><a title="About Us" href="{{store url=""}}about-us.html">About Us</a></li>
+	<li><a title="Customer Service" href="#">Customer Service</a></li>
+	<li><a title="Privacy Policy" href="#">Privacy Policy</a></li>
+	<li><a title="Site Map" href="#">Site Map</a></li>
+	<li><a title="Orders and Returns" href="#">Orders and Returns</a></li>
+	<li><a title="Contact Us" href="{{store url=""}}contact-us.html">Contact Us</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Payment Footer</title>
+      <identifier>payment-footer</identifier>
+      <content><![CDATA[<img src="{{media url="wysiwyg/payment/payment.png"}}" alt="Payment" />]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Shipping Footer</title>
+      <identifier>shipping-footer</identifier>
+      <content><![CDATA[<p class="shipping-content">Free Shipping On Orders Over  $450.00</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Social Footer</title>
+      <identifier>social-footer</identifier>
+      <content><![CDATA[<div class="socials-wrap">
+	<div class="title-follow">Follow Us</div>
+	
+	<ul>
+		<li class="li-social facebook-social">
+			<a target="_blank" href="https://www.facebook.com/MagenTech" title="Facebook">
+				<span class="fa fa-facebook icon-social"><span class="hidden">Facebook</span></span>
+				<span class="name-social">Facebook</span>
+			</a>
+		</li>
+		
+		<li class="li-social twitter-social">
+			<a target="_blank" href="https://twitter.com/smartaddons" title="Twitter">
+				<span class="fa fa-twitter icon-social"><span class="hidden">Twitter</span></span>
+				<span class="name-social">Twitter</span>
+			</a>
+		</li>
+		
+		<li class="li-social google-social">
+			<a target="_blank" href="https://plus.google.com/u/0/+Smartaddons/posts" title="Google">
+				<span class="fa fa-google-plus icon-social"><span class="hidden">Google</span></span>
+				<span class="name-social">Google</span>
+			</a>
+		</li>
+		
+		<li class="li-social linkedin-social">
+			<a target="_blank" href="#" title="Linkedin">
+				<span class="fa fa-linkedin icon-social"><span class="hidden">Linkedin</span></span>
+				<span class="name-social">Linkedin</span>
+			</a>
+		</li>
+		
+		<li class="li-social pinterest-social">
+			<a target="_blank" href="#" title="Pinterest">
+				<span class="fa fa-pinterest icon-social"><span class="hidden">Pinterest</span></span>
+				<span class="name-social">Pinterest</span>
+			</a>
+		</li>
+	</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Banner Bottom</title>
+      <identifier>banner-bottom</identifier>
+      <content><![CDATA[<ul class="banner-list">
+<li class="banner-item">
+<div class="image-banner"><img src="{{media url="wysiwyg/banner/banner-bottom-1.jpg"}}" alt="Banner" /></div>
+<div class="text-banner">
+<h3 class="top-title">Trending Fashion</h3>
+<h2 class="big-title">End of <span class="color-text">Season</span></h2>
+<h3 class="bottom-title">pre season event at our new fashion</h3>
+<p class="description-banner">* Discount applied automatically at checkout</p>
+<a class="shopnow-btn" title="Shop Now" href="#">Shop Now</a></div>
+</li>
+<li class="banner-item">
+<div class="image-banner"><img src="{{media url="wysiwyg/banner/banner-bottom-2.jpg"}}" alt="Banner" /></div>
+<div class="text-banner">
+<h3 class="top-title">Trending Fashion</h3>
+<h2 class="big-title">End of <span class="color-text">Season</span></h2>
+<h3 class="bottom-title">pre season event at our new fashion</h3>
+<p class="description-banner">* Discount applied automatically at checkout</p>
+<a class="shopnow-btn" title="Shop Now" href="#">Shop Now</a></div>
+</li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Slider Brand</title>
+      <identifier>slider-brand</identifier>
+      <content><![CDATA[<div class="slider-brand-bottom-wrapper">
+<div class="slider-brand-bottom">
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-1.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-2.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-3.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-4.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-5.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-1.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-2.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-3.jpg"}}" alt="Image Brand" /></a></div>
+<div class="item"><a title="Image Brand" href="#"><img src="{{media url="wysiwyg/brand/brand-item-5.jpg"}}" alt="Image Brand" /></a></div>
+</div>
+<script type="text/javascript" xml="space">
+	require(['jquery','owlcarousel'], function ($, owlCarousel) {
+		var post_slider = $(".slider-brand-bottom");
+		post_slider.owlCarousel({				
+		responsive:{
+			0:{
+				items:2
+			},
+			480:{
+				items:3
+			},
+			768:{
+				items:4
+			},
+			992:{
+				items:5
+			},
+			1200:{
+				items:6
+			}
+		},
+		autoplay:false,
+		loop:true,
+		nav : true,
+		dots: false,
+		autoplaySpeed : 500,
+		navSpeed : 500,
+		dotsSpeed : 500,
+		autoplayHoverPause: true,
+		margin:30,
+		});	  
+	});	
+</script>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme  - About Us</title>
+      <identifier>about-us-page</identifier>
+      <content><![CDATA[<div class="row box-1-about">
+<div class="col-md-9 welcome-about-us">
+<div class="title-about-us">
+<h2>Welcome To Shop</h2>
+</div>
+<div class="content-about-us">
+<div class="image-about-us"><img src="{{media url="wysiwyg/about-us.jpg"}}" alt="About Us" /></div>
+<div class="des-about-us">Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus suscipit dignissim. Nunc non nisl lacus. Integer pharetra lacinia dapibus. Donec eu dolor dui, vel posuere mauris.<br /><br /> Pellentesque semper congue sodales. In consequat, metus eget con sequat ornare, augue dolor blandit purus, vitae lacinia nisi tellus in erat. Nulla ac justo eget massa aliquet sodales. Maecenas mattis male suada sem, in fringilla massa dapibus quis. Suspendisse aliquam leo id neque auctor molestie. Etiam at nulla tellus.<br /><br /> Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus suscipit dignissim.</div>
+</div>
+</div>
+<div class="col-md-3 why-choose-us">
+<div class="title-about-us">
+<h2>Why Choose Us</h2>
+</div>
+<div class="content-why">
+<ul class="why-list">
+<li><a title="Shipping &amp; Returns" href="#">Shipping &amp; Returns</a></li>
+<li><a title="Secure Shopping" href="#">Secure Shopping</a></li>
+<li><a title="International Shipping" href="#">International Shipping</a></li>
+<li><a title="Affiliates" href="#">Affiliates</a></li>
+<li><a title="Group Sales" href="#">Group Sales</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-12 our-member">
+<div class="title-about-us">
+<h2>Our Member</h2>
+</div>
+<div class="short-des">Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis aliquet mauris malesuada vel. Donec vitae libero dolor, eget dapibus justo.<br />Aenean facilisis aliquet feugiat. Suspendisse lacinia congue est ac semper. Nulla ut elit magna, vitae volutpat magna.</div>
+<div class="overflow-owl-slider1">
+<div class="wrapper-owl-slider1">
+<div class="row slider-ourmember">
+<div class="item-about col-lg-6 col-md-6 col-sm-6">
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-1.jpg"}}" alt="Jennifer lawrence" /></a></div>
+</div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Art Director</p>
+<p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+<ul>
+<li><a class="fa fa-f" title="Facebook" href="#"></a></li>
+<li><a class="fa fa-t" title="Twitter" href="#"></a></li>
+<li><a class="fa fa-g" title="google" href="#"></a></li>
+<li><a class="fa fa-s" title="skyper" href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item-about col-lg-6 col-md-6 col-sm-6">
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-2.jpg"}}" alt="Jennifer lawrence" /></a></div>
+</div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Design Leader</p>
+<p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+<ul>
+<li><a class="fa fa-f" title="Facebook" href="#"></a></li>
+<li><a class="fa fa-t" title="Twitter" href="#"></a></li>
+<li><a class="fa fa-g" title="google" href="#"></a></li>
+<li><a class="fa fa-s" title="skyper" href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item-about col-lg-6 col-md-6 col-sm-6">
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-3.jpg"}}" alt="Jennifer lawrence" /></a></div>
+</div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Tech Leader</p>
+<p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+<ul>
+<li><a class="fa fa-f" title="Facebook" href="#"></a></li>
+<li><a class="fa fa-t" title="Twitter" href="#"></a></li>
+<li><a class="fa fa-g" title="google" href="#"></a></li>
+<li><a class="fa fa-s" title="skyper" href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="item-about col-lg-6 col-md-6 col-sm-6">
+<div class="item respl-item">
+<div class="item-inner">
+<div class="w-image-box">
+<div class="item-image"><a title="Jennifer lawrence" href="#"><img src="{{media url="wysiwyg/cl-image-4.jpg"}}" alt="Jennifer lawrence" /></a></div>
+</div>
+<div class="info-member">
+<h2 class="cl-name"><a title="Jennifer lawrence" href="#">Jennifer lawrence</a></h2>
+<p class="cl-job">Manager</p>
+<p class="cl-des">Donec dignissim, enim ac semper tempus, ligula neque pulvinar mi, sed facilisis arcu placerat consequat</p>
+<ul>
+<li><a class="fa fa-f" title="Facebook" href="#"></a></li>
+<li><a class="fa fa-t" title="Twitter" href="#"></a></li>
+<li><a class="fa fa-g" title="google" href="#"></a></li>
+<li><a class="fa fa-s" title="skyper" href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12 happy-about-us">
+<div id="slider-happy-about-us" class="happy-ab carousel slide" data-ride="carousel">
+<div class="title-happy-about">
+<h2>Happy customer says</h2>
+</div>
+<div class="sm_imageslider slider-happy-client">
+<div class="item active">
+<div class="ct-why">
+<div class="client-say">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis neque eget nulla. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Mama Duo - </span>Social Media Strategist</p>
+</div>
+</div>
+<div class="item">
+<div class="ct-why">
+<div class="client-say">In congue, justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis neque eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Join Doe - </span>Social Media Strategist</p>
+</div>
+</div>
+<div class="item">
+<div class="ct-why">
+<div class="client-say">Dui nibh scelerisque justo, in congue, justo non cursus adipiscing, quis pretium turpis neque eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Join Doe - </span>Social Media Strategist</p>
+</div>
+</div>
+<div class="item">
+<div class="ct-why">
+<div class="client-say">In congue, justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis neque eget nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum consectetur metus nec dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue, justo non cursus adipiscing, dui nibh scelerisque justo non cursus adipiscing, dui nibh scelerisque justo, quis pretium turpis.</div>
+<p class="client-info-about"><span class="name">- Join Doe - </span>Social Media Strategist</p>
+</div>
+</div>
+</div>
+<script type="text/javascript" xml="space">
+					require(['jquery','owlcarousel'], function ($, owlCarousel) {
+						var slider_happy_client = $(".slider-happy-client");
+						slider_happy_client.owlCarousel({
+							items:1,
+							autoplay:false,
+							loop:false,
+							nav : true,
+							dots: false,
+							autoplaySpeed : 500,
+							navSpeed : 500,
+							dotsSpeed : 500,
+							autoplayHoverPause: true,
+							margin:30
+						});
+					});
+				
+</script>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Contact Us Page</title>
+      <identifier>contact-us-page</identifier>
+      <content><![CDATA[<div class="contact-us-page">
+	<div class="title-bonus-page">
+		<h2>Contact Us</h2>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-md-6">
+		<div class="google-map">{{block class="Magento\\Cms\\Block\\Block" block_id="contact-googlemap"}}</div>
+			<p class="contact-description">
+			Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<br>
+			Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore
+			</p>
+		</div>
+		<div class="col-lg-6 col-md-6">
+			{{block class="Magento\Contact\Block\ContactForm" template="Magento_Contact::form-contact.phtml"}}
+		</div>
+	</div>
+	<div class="row info-bottom-contact">
+	<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Main office" href="#">Main office</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 01" href="#">Branch 01</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 02" href="#">Branch 02</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-6 store-info">
+<ul class="list-info">
+<li class="item-info main-info">
+<div class="info-content">
+<h2><a title="Branch 03" href="#">Branch 03</a></h2>
+<div class="des-info">Sed ut perspiciatis unde omnis 123456 Street Name, Los Angeles</div>
+</div>
+</li>
+<li class="item-info email-info">
+<div class="info-content">
+<h2>Email</h2>
+<div class="des-info"><a class="mailto" title="Send Email" href="mailto:Support1@shopname.com">Support1@shopname.com</a><br /> <a class="mailto" title="Send Email" href="mailto:Support2@shopname.com">Support2@shopname.com</a></div>
+</div>
+</li>
+<li class="item-info phone-info">
+<div class="info-content">
+<h2>Phone</h2>
+<div class="des-info"><a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a><br /> <a class="call-phone" title="Call: 0123-4567-8910" href="tel:0123-4567-8910">0123-4567-8910</a></div>
+</div>
+</li>
+</ul>
+</div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Google Map</title>
+      <identifier>contact-googlemap</identifier>
+      <content><![CDATA[<script src="http://maps.google.com/maps/api/js?key=AIzaSyCdLmykXAklykOYyXdILXpZvQGPmc58LIk" type="text/javascript" xml="space"></script>
+<div id="map">&nbsp;</div>
+<script type="text/javascript" xml="space">
+var myOptions = {
+         zoom: 15,
+         scrollwheel: false,
+         center: new google.maps.LatLng(48.89364,2.33739), 	
+         mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+
+      var map = new google.maps.Map(document.getElementById("map"), myOptions);
+</script>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Banner 1</title>
+      <identifier>banner-1</identifier>
+      <content><![CDATA[<div class="banner-1">
+<ul class="list-banner">
+<li class="item-banner item-banner-1"><img src="{{media url="wysiwyg/banner/banner-1/image-1.jpg"}}" alt="Banner" />
+<div class="text-banner align-left">
+<h2>Accessories</h2>
+<p>Go hell for leather or switch it<br />up with suede shoppers,<br />clutches and cross-body bags.</p>
+<a class="action primary"> <span>Shop It Now!</span> </a></div>
+</li>
+<li class="item-banner item-banner-2"><img src="{{media url="wysiwyg/banner/banner-1/image-2.jpg"}}" alt="Banner" />
+<div class="text-banner align-right">
+<h2>Backpacks</h2>
+<p>Give strong street-style game<br />with our range of Nike and<br />adidas backpacks.</p>
+<a class="action primary"> <span>Shop It Now!</span> </a></div>
+</li>
+<li class="item-banner item-banner-3"><img src="{{media url="wysiwyg/banner/banner-1/image-3.jpg"}}" alt="Banner" />
+<div class="text-banner align-left">
+<h2>Cross-Body Bags</h2>
+<p>Take your bag hands-free<br />with a cross-body style for<br />instant cool.</p>
+<a class="action primary"> <span>Shop It Now!</span> </a></div>
+</li>
+<li class="item-banner item-banner-4"><img src="{{media url="wysiwyg/banner/banner-1/image-4.jpg"}}" alt="Banner" />
+<div class="text-banner align-center">
+<h2><a title="New Arrivals" href="#">New<br />Arrivals</a></h2>
+<h3>For Bags</h3>
+<h4>Sale up to 30% off</h4>
+</div>
+</li>
+<li class="item-banner item-banner-5"><img src="{{media url="wysiwyg/banner/banner-1/image-5.jpg"}}" alt="Banner" />
+<div class="text-banner align-right">
+<h2>Accessories</h2>
+<p>The little things make a big<br />difference with our range of<br />accessories.</p>
+<a class="action primary"> <span>Shop It Now!</span> </a></div>
+</li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Banner Full 1</title>
+      <identifier>banner-full-1</identifier>
+      <content><![CDATA[<div class="text-banner">
+<h4>New Collection</h4>
+<h2>Best For Women Style</h2>
+<h3>Sale Off Up 30%</h3>
+<a href="#" title="Shop It Now" class="banner-button">Shop It Now!</a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Home - Latest Updates</title>
+      <identifier>latest-updates</identifier>
+      <content><![CDATA[<div class="shop-title">
+<div class="title">Shop</div>
+<div class="sub-title">
+<h2>Latest Updates</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 blog-item">
+<div class="blog-image"><a title="Leather &amp; Suede" href="#"> <img src="{{media url="wysiwyg/blog/blog-1.png"}}" alt="Blog" /> </a></div>
+<div class="blog-info">
+<h2><a title="Leather &amp; Suede" href="#">Leather &amp; Suede</a></h2>
+<ul class="date-comment">
+<li>Mar 17, 2015</li>
+<li>0 comment(s)</li>
+</ul>
+<div class="description-blog">Donec tellus Nulla lorem Nullam elit id ut elit feugiat lacus. Congue eget dapibus congue tincidunt senectus nibh risus Morbi at ligula porta, vulputate nulla vitae, accumsan sapien. Maecenas molestie maximus varius. Aliquam blandit rhoncus...</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 blog-item">
+<div class="blog-image"><a title="Leather &amp; Suede" href="#"> <img src="{{media url="wysiwyg/blog/blog-2.png"}}" alt="Blog" /> </a></div>
+<div class="blog-info">
+<h2><a title="Leather &amp; Suede" href="#">Leather &amp; Suede</a></h2>
+<ul class="date-comment">
+<li>Mar 17, 2015</li>
+<li>0 comment(s)</li>
+</ul>
+<div class="description-blog">Donec tellus Nulla lorem Nullam elit id ut elit feugiat lacus. Congue eget dapibus congue tincidunt senectus nibh risus Morbi at ligula porta, vulputate nulla vitae, accumsan sapien. Maecenas molestie maximus varius. Aliquam blandit rhoncus...</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Banner New Arrivals</title>
+      <identifier>banner-center</identifier>
+      <content><![CDATA[<div class="banner-center-content">
+								<img src="{{media url="wysiwyg/banner/new-banner.jpg"}}" alt="New Arrivals" />
+								<div class="shop-title">
+									<div class="title">Shop</div>
+									<div class="sub-title">
+										<h2>New Arrivals</h2>
+									</div>
+									<div class="short-description">
+										Lorem ipsum dolor sit amet, consectetur<br>
+										adipisicing elit, sed do eiusmod tempor
+									</div>
+									
+									<a class="action primary">
+										<span>view all products</span>
+									</a>
+								</div>
+							</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Product Megamenu Men</title>
+      <identifier>slider-product-megamenu</identifier>
+      <content><![CDATA[<div class="slider-megamenu">{{block class="Sm\BasicProducts\Block\BasicProducts" template="Sm_BasicProducts::sm/basicproducts/slider.phtml" title="" product_category="11" product_limitation="3"}}</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Theme - Product Sidebar</title>
+      <identifier>product-sidebar</identifier>
+      <content><![CDATA[<p>{{block class="Sm\BasicProducts\Block\BasicProducts" template="Sm_BasicProducts::sidebar-product.phtml" title="<span>Best Sellers</span>" product_category="3,7,9,11,20" product_limitation="3" img_width="100" img_height="100" product_addcart_display="0" product_addwishlist_display="0" product_addcompare_display="0"}}</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - About Us Footer</title>
+      <identifier>about-us-footer</identifier>
+      <content><![CDATA[<img src="{{media url="wysiwyg/footer/footer-logo.png"}}" alt="Topshop - Responsive Magento Theme for Multipurpose" />
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy  - Block Contact us footer</title>
+      <identifier>ft-contact-us</identifier>
+      <content><![CDATA[<div class="footer-title">
+<h2>Contact Us</h2>
+</div>
+<div class="content-block-footer block"><span class="contact-info" style="display: inline-block; padding-bottom: 10px;">Maecenas euismod felis et purus consectetur, quis fermentum velition. Aenean egestas quis turpis vehicula.</span>
+<ul>
+<li><em class="fa fa-home" style="font-size: 16px; position: relative; top: 1px;">&nbsp;</em>No 304, Sky Tower, New York, USA</li>
+<li style="margin: 0px 0 4px;"><em class="fa fa-mobile" style="font-size: 22px; position: relative; top: 4px;">&nbsp;</em>Telephone: <a title="Call:(801) 2345 - 6789" href="tel:+84123456789">(801) 2345 - 6789</a></li>
+<li><em class="fa fa-envelope" style="font-size: 13px; position: relative;">&nbsp;</em>E-mail: <a title="Contact@gmail.com" href="mailto:Contact@gmail.com">Contact@gmail.com</a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Block Information footer</title>
+      <identifier>ft-infomation-block</identifier>
+      <content><![CDATA[<div class="footer-title">
+<h2>Information</h2>
+</div>
+<div class="block">
+<div class="content-block-footer">
+<ul>
+<li><a href="{{config path="web/secure/base_url"}}customer/account/">My Account</a></li>
+<li><a href="#">Order History</a></li>
+<li><a href="#">Returns</a></li>
+<li><a href="#">Specials</a></li>
+<li><a href="#">Site Map</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - My accout footer</title>
+      <identifier>ft-account-block</identifier>
+      <content><![CDATA[<div class="block ft-my-account">
+<div class="footer-title">
+<h2>my account</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="My account" href="{{config path="web/secure/base_url"}}customer/account/">My account</a></li>
+<li><a title="Login" href="{{config path="web/secure/base_url"}}customer/account/login/">Login</a></li>
+<li><a title="My Cart" href="{{config path="web/secure/base_url"}}checkout/cart/">My Cart</a></li>
+<li><a title="My Wishlist" href="{{config path="web/secure/base_url"}}wishlist/">My Wishlist</a></li>
+<li><a title="My Compare" href="{{config path="web/secure/base_url"}}catalog/product_compare/index/">My Compare</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Tags Popular</title>
+      <identifier>ft-tags-popular</identifier>
+      <content><![CDATA[<div class="block block-tags">
+<div class="title">Hot Tags</div>
+<div class="block-content">
+<ul class="tags-list">
+<li><a href="#">32gb tf card</a>|</li>
+<li><a href="#">Flatware ,Arrow Shirts ,Ethni wear</a>|</li>
+<li><a href="#">Magentech new themes</a>|</li>
+<li><a href="#">Mini book, Macbook pro, pc senter</a>|</li>
+<li><a href="#">Point shoot ,tripod camera</a>|</li>
+<li><a href="#">Themeforest new magento</a>|</li>
+<li><a href="#">android smart, new product</a>|</li>
+<li><a href="#">best mini usb flash drive</a>|</li>
+<li><a href="#">bluetooth motorcycle headset</a>|</li>
+<li><a href="#">case iphone reflective</a>|</li>
+<li><a href="#">coolest headphone</a>|</li>
+<li><a href="#">figures the best smartphone</a>|</li>
+<li><a href="#">kingston micro sd card 8gb</a>|</li>
+<li><a href="#">led tall light</a>|</li>
+<li><a href="#">mercedes grille badges</a>|</li>
+<li><a href="#">nike headband</a>|</li>
+<li><a href="#">ramos lcd tablet pc black</a>|</li>
+<li><a href="#">repacement touch screen</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy  - Vertical menu config</title>
+      <identifier>vertical-menu-config</identifier>
+      <content><![CDATA[{{block class="Sm\MegaMenu\Block\MegaMenu\View" template="Sm_MegaMenu::megamenu.phtml" 
+theme="2" 
+group_id="2" 
+}}
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Slider home page 1 </title>
+      <identifier>home-slider1</identifier>
+      <content><![CDATA[<div class="wrapper-top-content1">
+<div class="container">
+<div class="col-md-offset-3">
+<div class="row">
+<div class="col-md-9 col-sm-8 block-slider">
+{{block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider1" template="Sm_ImageSlider::default.phtml}}
+</div>
+<div class="col-md-3 col-sm-4  block-deals1">
+{{block class="Sm\Deals\Block\Deals" name="deals" template="Sm_Deals::index1.phtml" product_limitation="3" dots="1" nb_column1="1" nb_column2="1" nb_column3="1" nb_column4="1" nb_column5="1"}}
+</div>
+</div>
+{{block class="Magento\\Cms\\Block\\Block" block_id="block-h1-banner1"}}
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Slider Home 1</title>
+      <identifier>block-h1-banner1</identifier>
+      <content><![CDATA[<div class="bannerhome1 bannerhome">
+<div class="img-effect img-banner1">
+<a class="img-class banner1" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/banner-img1.jpg"}}" alt="" />
+</a>
+</div>
+<div class="img-effect img-banner2">
+<a class="img-class banner1" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/banner-img2.jpg"}}" alt="" />
+</a>
+</div>
+<div class="img-effect img-banner3">
+<a class="img-class banner1" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/banner-img3.jpg"}}" alt="" />
+</a>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Search Box</title>
+      <identifier>search-box</identifier>
+      <content><![CDATA[{{block class="Sm\SearchBox\Block\SearchBox" name="searchbox" as="searchbox" template="Sm_SearchBox::searchbox.form.mini.phtml" }}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Header Contact Home 1</title>
+      <identifier>contact-header</identifier>
+      <content><![CDATA[<div class="offer-wrapper">
+<div class="offer-header">
+<ul id="offer-slider">
+<li>
+<p class="group1"><i class="fa fa-phone-square">&nbsp;</i>Telephone: <a style="margin-right: 15px;" title="Call:(801) 2345 - 6789" href="tel:+84123456789">(801) 2345 - 6789</a></p>
+<p class="group2"><i class="fa fa-envelope">&nbsp;</i>E-mail: <a title="Contact@gmail.com" href="mailto:Contact@gmail.com">Contact@gmail.com</a></p>
+</li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy -  Block Banner  Top Index 2</title>
+      <identifier>block-banner-top</identifier>
+      <content><![CDATA[<div class="bannerhomev2">
+<div class="img-effect img-banner1">
+<a class="img-classv2 banner1 block" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/1.jpg"}}" alt="" />
+</a>
+</div>
+<div class="img-effect img-banner2">
+<a class="img-classv2 banner1 block " href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/2.jpg"}}" alt="" />
+</a>
+</div>
+<div class="img-effect img-banner3">
+<a class="img-classv2 banner1 block" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/3.jpg"}}" alt="" />
+</a>
+</div>
+<div style="clear:both"></div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Box Seviver</title>
+      <identifier>ft-boxsevicer</identifier>
+      <content><![CDATA[<div class="footer-bottom-sevicer">
+<div class="container">
+<div class="box-sevicer">
+<div class="sn-sevirce sn-put1">
+<div class="img-sevirce img-sevirce1">&nbsp;</div>
+<div class="content-service"><a class="sn-title" href="#" rel="nofollow">High Quality</a> <span>Nullam sed sollicitudin mauris velit id venenatis morbi</span></div>
+</div>
+<div class="sn-sevirce sn-put2">
+<div class="img-sevirce img-sevirce2">&nbsp;</div>
+<div class="content-service"><a class="sn-title" href="#" rel="nofollow">Awesome Support</a> <span>Nullam sed sollicitudin mauris velit id venenatis morbi</span></div>
+</div>
+<div class="sn-sevirce sn-put3">
+<div class="img-sevirce img-sevirce3">&nbsp;</div>
+<div class="content-service"><a class="sn-title" href="#" rel="nofollow">Really Fast Delivery</a> <span>Nullam sed sollicitudin mauris velit id venenatis morbi</span></div>
+</div>
+<div class="sn-sevirce sn-put4">
+<div class="img-sevirce img-sevirce4">&nbsp;</div>
+<div class="content-service"><a class="sn-title" href="#" rel="nofollow">14-Day Returns</a> <span>Nullam sed sollicitudin mauris velit id venenatis morbi</span></div>
+</div>
+<div class="sn-sevirce sn-put5">
+<div class="img-sevirce img-sevirce5">&nbsp;</div>
+<div class="content-service"><a class="sn-title" href="#" rel="nofollow">Secure Checkout</a> <span>Nullam sed sollicitudin mauris velit id venenatis morbi</span></div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Content Home 1</title>
+      <identifier>banner-ct1</identifier>
+      <content><![CDATA[<div class=" img-effect img-content-home3 block">
+<a class="img-class " href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/content-home3.jpg"}}" alt="" />
+</a>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner 2 Content Home 1</title>
+      <identifier>banner-ct2</identifier>
+      <content><![CDATA[<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6">
+<div class=" img-effect img-content-home1 block">
+<a class="img-class " href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/content-home1.jpg"}}" alt="" />
+</a>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<div class=" img-effect img-content-home1 block">
+<a class="img-class " href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/content-home2.jpg"}}" alt="" />
+</a>
+</div>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Pretext Productabs Home 1</title>
+      <identifier>pretext-tabs1</identifier>
+      <content><![CDATA[<div class="imgleft img-effect">
+<a class="img-class " href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-1/img-listing-left.jpg"}}" alt="" />
+</a>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Left Home 2</title>
+      <identifier>banner-left-home2</identifier>
+      <content><![CDATA[<div class="block-image-static img-effect hidden-md hidden-sm block">
+<a class="img-class " title="Image Static" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/left-image-static.jpg"}}" alt="" />
+</a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Content Home index2</title>
+      <identifier>content-home-banner-v2</identifier>
+      <content><![CDATA[<div class="content-home-img-v2 block">
+<div class="img-effect img-content-homev2">
+<a class="img-class sn-1" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/imgv2-1.jpg"}}" alt="" />
+</a>
+</div>
+<div class=" img-content-homev2">
+<div class="img-effect img-content-homev2-1">
+<a class="img-class sn-2" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/imgv2-2.jpg"}}" alt="" />
+
+</a>
+</div>
+<div class="img-effect img-content-homev2-2">
+<a class="img-class sn-3" href="#">
+<img src="{{media url="wysiwyg/home-page-image/home-2/imgv2-3.jpg"}}" alt="" />
+
+</a>
+</div>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Block Testimonal and Blog index2</title>
+      <identifier>block-index-bottom</identifier>
+      <content><![CDATA[<div class="block-index-bottom">
+<div class="container">
+<div class="col-lg-6 col-md-6 tami-v2">{{block class="Magento\\Cms\\Block\\Block" block_id="block-testimonal-v2"}}</div>
+<div class="col-lg-6 col-md-6 blog-v2">{{block class="Magento\\Cms\\Block\\Block" block_id="block-blog-v2"}}</div>
+</div></div>
+<div class="container">{{block class="Magento\\Cms\\Block\\Block" block_id="slider-brand"}}</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Testimonal Index 2</title>
+      <identifier>block-testimonal-v2</identifier>
+      <content><![CDATA[<div class="client-say">
+<div class="block-content">
+<div class="client-say-slider">
+<div class="item item-client-say">
+<div class="client-say-info">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-1.png"}}" alt="Image Client" /></a></div>
+</div>
+<div class="client-comment"><span class="sn-tamiv2">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim ac quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec. Cras viverra purus a mauris malesuada aliquam. Integer purus lectus, volutpat quis gravida porttitor, venenatis ut tortor. Phasellus a sapien lorem.</span></div>
+</div>
+<div class="item item-client-say">
+<div class="client-say-info">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-2.png"}}" alt="Image Client" /></a></div>
+</div>
+<div class="client-comment"><span class="sn-tamiv2">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim ac quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec. Cras viverra purus a mauris malesuada aliquam. Integer purus lectus, volutpat quis gravida porttitor, venenatis ut tortor. Phasellus a sapien lorem.</span></div>
+</div>
+<div class="item item-client-say">
+<div class="client-say-info">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-3.png"}}" alt="Image Client" /></a></div>
+</div>
+<div class="client-comment"><span class="sn-tamiv2">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim ac quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec. Cras viverra purus a mauris malesuada aliquam. Integer purus lectus, volutpat quis gravida porttitor, venenatis ut tortor. Phasellus a sapien lorem.</span></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" xml="space">
+		require(['jquery','owlcarousel'], function ($, owlCarousel) {
+				var bs_slider = $(".client-say-slider");
+				bs_slider.owlCarousel({		
+					items:1,
+					autoplay:false,
+					loop:false,
+					nav : true, // Show next and prev buttons
+					dots: false,
+					autoplaySpeed : 500,
+					navSpeed : 500,
+					dotsSpeed : 500,
+					autoplayHoverPause: true,
+					margin:0
+			});	  
+		});	
+	
+</script>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Block Blog Index 2</title>
+      <identifier>block-blog-v2</identifier>
+      <content><![CDATA[<div class="latest-blogs">
+	<div class="block-title" style="position: relative;">
+		<strong>
+			<span>New Blog</span>
+			<a class="sn-view" title="123" href="#" >View All</a>
+		</strong>		
+	</div>
+	<div class="block latest-blog">	
+		<div class="block-content">
+			<div class="latest-blog-slider">
+				<div class="item-blog item">
+					<div class="img-blog">
+						<a class="img-link" title="Aestibulum ipsum a ornare car" href="#" >
+						<img src="{{media url="wysiwyg/img-blog/1.jpg"}}" alt="" />
+						</a>
+						<!-- <p class="date-blog"></p> --> 
+        				<div class="sn-datev2"><div class="d-blog">05</div><div class="m-blog">Jun</div></div>			
+            		</div>
+					<div class="blog-info">
+						<div class="postTitle">
+							<h2><a title="Aestibulum ipsum a ornare car" href="#" >Aestibulum ipsum a ornare car</a></h2>
+						</div>						
+						<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum impe</div>
+					</div>
+				</div>
+				<div class="item-blog item">
+					<div class="img-blog">
+						<a class="img-link" title="Aestibulum ipsum a ornare car" href="#" >
+						<img src="{{media url="wysiwyg/img-blog/2.jpg"}}" alt="" />
+						</a>
+						<!-- <p class="date-blog"></p> --> 
+        				<div class="sn-datev2"><div class="d-blog">05</div><div class="m-blog">Jun</div></div>			
+            		</div>
+					<div class="blog-info">
+						<div class="postTitle">
+							<h2><a title="Aestibulum ipsum a ornare lectus" href="#" >Aestibulum ipsum a ornare lectus</a></h2>
+						</div>						
+						<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum impe</div>
+					</div>
+				</div>
+				
+		</div>
+	  </div>
+	</div>
+</div>
+								
+												]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Home Index3</title>
+      <identifier>banner-home-v3</identifier>
+      <content><![CDATA[ <div class="img-banner-v3 row">
+	<div class="item-service mr40  col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <div class="img-effect">
+				  <a class="img-class " href="#" title="banner1">
+					<img src="{{media url="wysiwyg/home-page-image/home-3/bannerv3-1.jpg"}}" alt="" />
+				  </a>
+                </div>
+	</div>
+	
+	<div class="item-service mr40  col-lg-6 col-md-6 col-sm-6  col-xs-6">
+              <div class="img-effect">
+				<a class="img-class" href="#" title="banner2">
+					<img src="{{media url="wysiwyg/home-page-image/home-3/bannerv3-2.jpg"}}" alt="" />
+				</a>
+               </div>
+	</div>
+	
+	<div class="item-service mr40   col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <div class="img-effect">
+					<a class="img-class" href="#" title="banner3">
+						<img src="{{media url="wysiwyg/home-page-image/home-3/bannerv3-3.jpg"}}" alt="" />
+					</a>
+               </div>
+	</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Banner Bottom Home 3</title>
+      <identifier>banner-bottom-v3</identifier>
+      <content><![CDATA[<div class="img-effect hidden-xs hidden-sm"><a class="img-class " title="Banner-Bottom" href="#"> <img src="{{media url="wysiwyg/home-page-image/home-3/banner-botom-v3.jpg"}}" alt="" /> </a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Client Say Home Index 3</title>
+      <identifier>client-say-v3</identifier>
+      <content><![CDATA[<div class="client-wrapper-b">
+<div class="block-title-bottom">
+<h2>Testimonial</h2>
+</div>
+<div class="block-content-clientsay">
+<div class="client-say-slider">
+<div class="item item-client-say">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-1.png"}}" alt="Image Client" /></a></div>
+<div class="client-say-info client-comment"><span class="sn-tamiv3">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec phasellus euismod.</span></div>
+</div>
+<div class="item item-client-say">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-2.png"}}" alt="Image Client" /></a></div>
+<div class="client-say-info client-comment"><span class="sn-tamiv3">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec phasellus euismod.</span></div>
+</div>
+<div class="item item-client-say">
+<div class="image-client"><a title="Jack Andrson" href="#"><img src="{{media url="wysiwyg/image-client/img-client-3.png"}}" alt="Image Client" /></a></div>
+<div class="client-say-info client-comment"><span class="sn-tamiv3">Donec sit amet vulputate velit. Aenean tempus nisl ac fermentum tincidunt. Nam aliquet enim quam scelerisque rutrum. Aliquam ante dolor, posuere nec mattis id, suscipit ac mi. Praesent luctus ex massa, nec feugiat est eleifend nec phasellus euismod.</span></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" xml="space">
+			require(['jquery','owlcarousel'], function ($, owlCarousel) {
+				var bs_slider = $(".client-say-slider");
+				bs_slider.owlCarousel({	
+					items:1,
+					autoplay:false,
+					loop:false,
+					nav : true, // Show next and prev buttons
+					dots: false,
+					autoplaySpeed : 500,
+					navSpeed : 500,
+					dotsSpeed : 500,
+					autoplayHoverPause: true,
+					margin:0
+					
+				});	  
+			});
+	</script>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Blog index 3</title>
+      <identifier>blog-bottom-v3</identifier>
+      <content><![CDATA[<div class="blog-bottomv-3">
+<div class="block-title-bottom">
+<h2>NEW BLOG</h2>
+</div>
+<div class="latest-blog-bottom">
+<div id="accordion" class="panel-group">
+<div class="panel panel-default">
+<div id="heading1" class="panel-heading">
+<h4 class="panel-title"><a href="#collapse1" data-toggle="collapse" data-parent="#accordion"> <span>Aestibulum ipsum a ornare car</span> </a></h4>
+</div>
+<div id="collapse1" class="panel-collapse collapse in">
+<div class="panel-body">
+<div class="blog-info ">
+<div class="img-blog"><a class="img-link" title="Aestibulum ipsum a ornare car" href="#"> <img src="{{media url="wysiwyg/img-blog/1.jpg"}}" alt="" /> </a></div>
+<div class="postTitle1">
+<h2><a title="Aestibulum ipsum a ornare car" href="#">Aestibulum ipsum a ornare car</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="heading2" class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" href="#collapse2" data-toggle="collapse" data-parent="#accordion"> <span>Aestibulum ipsum a ornare lectus</span> </a></h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="blog-info ">
+<div class="img-blog"><a class="img-link" title="Aestibulum ipsum a ornare car" href="#"> <img src="{{media url="wysiwyg/img-blog/2.jpg"}}" alt="" /> </a></div>
+<div class="postTitle1">
+<h2><a title="Aestibulum ipsum a ornare car" href="#">Aestibulum ipsum a ornare car</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="heading3" class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" href="#collapse3" data-toggle="collapse" data-parent="#accordion"> <span>Aestibulum ipsum a ornare car</span> </a></h4>
+</div>
+<div id="collapse3" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="blog-info ">
+<div class="img-blog"><a class="img-link" title="Aestibulum ipsum a ornare car" href="#"> <img src="{{media url="wysiwyg/img-blog/5.jpg"}}" alt="" /> </a></div>
+<div class="postTitle1">
+<h2><a title="Neque eget interdum accumsan" href="#">Neque eget interdum accumsan</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="heading4" class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" href="#collapse4" data-toggle="collapse" data-parent="#accordion"> <span>Neque eget interdum accumsan</span> </a></h4>
+</div>
+<div id="collapse4" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="blog-info ">
+<div class="img-blog"><a class="img-link" title="Neque eget interdum accumsan" href="#"> <img src="{{media url="wysiwyg/img-blog/3.jpg"}}" alt="" /> </a></div>
+<div class="postTitle1">
+<h2><a title="Neque eget interdum accumsan" href="#">Neque eget interdum accumsan</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div id="heading5" class="panel-heading">
+<h4 class="panel-title"><a class="collapsed" href="#collapse5" data-toggle="collapse" data-parent="#accordion"> <span>Dolor at tincidunt mollis augue</span> </a></h4>
+</div>
+<div id="collapse5" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="blog-info ">
+<div class="img-blog"><a class="img-link" title="Dolor at tincidunt mollis augue" href="#"> <img src="{{media url="wysiwyg/img-blog/4.jpg"}}" alt="" /> </a></div>
+<div class="postTitle1">
+<h2><a title="Dolor at tincidunt mollis augue" href="#">Dolor at tincidunt mollis augue</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent liber</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Pretext 1  Productabs Home 3</title>
+      <identifier>pretext-tabs1-v3</identifier>
+      <content><![CDATA[<div class="img-effect">
+<a href="#" title="" class="img-class ">
+<img src="{{media url="wysiwyg/home-page-image/home-3/image-cat-3-h5.png"}}" alt="" />
+</a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Pretext 2  Productabs Home 3</title>
+      <identifier>pretext-tabs2-v3</identifier>
+      <content><![CDATA[<div class="img-effect">
+<a href="#" title="" class="img-class ">
+<img src="{{media url="wysiwyg/home-page-image/home-3/image-cat-2-h5.png"}}" alt="" />
+</a>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Block Corporation Footer</title>
+      <identifier>ft-corporate-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>Corporation</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a href="{{config path="web/secure/base_url"}}about-us.html">About us</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="#">Company</a></li>
+<li><a href="#">Investor Relations</a></li>
+<li><a href="#">Typography</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Block Choose Us Footer</title>
+      <identifier>ft-choose-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>Why Choose Us</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a href="{{config path="web/secure/base_url"}}about-us.html"><span class="icon-caret-right">&nbsp;</span>About us</a></li>
+<li><a href="#"><span class="icon-caret-right">&nbsp;</span>Blog</a></li>
+<li><a href="#"><span class="icon-caret-right">&nbsp;</span>Company</a></li>
+<li><a href="#"><span class="icon-caret-right">&nbsp;</span>Investor Relations</a></li>
+<li><a href="#"><span class="icon-caret-right">&nbsp;</span>Typography</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy - Blog Home 1</title>
+      <identifier>blog-block-index1</identifier>
+      <content><![CDATA[<div class="latest-blogs blog-home1 block">
+<div class="block-title" style="position: relative;"><strong> <span>New Blog</span> </strong></div>
+<div class="latest-blog">
+<div class="block-content">
+<div class="latest-blog-slider">
+<div class="item-blog item">
+<div class="img-blog"><a class="img-link" title="Aestibulum ipsum a ornare car" href="#"> <img src="{{media url="wysiwyg/img-blog/1.jpg"}}" alt="" /> </a></div>
+<div class="blog-info">
+<div class="postTitle">
+<h2><a title="Aestibulum ipsum a ornare car" href="#">Aestibulum ipsum a ornare car</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam ipsum dolor sit amet.</div>
+</div>
+</div>
+<div class="item-blog item">
+<div class="img-blog"><a class="img-link" title="Vestibulum ipsum a ornare lectus" href="#"> <img src="{{media url="wysiwyg/img-blog/2.jpg"}}" alt="" /> </a></div>
+<div class="blog-info">
+<div class="postTitle">
+<h2><a title="Vestibulum ipsum a ornare lectus" href="#">Aestibulum ipsum a ornare car</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam ipsum dolor sit amet.</div>
+</div>
+</div>
+<div class="item-blog item">
+<div class="img-blog"><a class="img-link" title="Dolor at tincidunt mollis augue" href="#"> <img src="{{media url="wysiwyg/img-blog/3.jpg"}}" alt="" /> </a></div>
+<div class="blog-info">
+<div class="postTitle">
+<h2><a title="Dolor at tincidunt mollis augue" href="#">Aestibulum ipsum a ornare car</a></h2>
+</div>
+<div class="postContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam, consectetur adipiscing elit</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" xml="space">
+		require(['jquery','owlcarousel'], function ($, owlCarousel) {
+				var bs_slider = $(".latest-blogs.blog-home1  .latest-blog-slider");
+				bs_slider.owlCarousel({
+					items:1,
+					autoplay:false,
+					loop:false,
+					nav : true, // Show next and prev buttons
+					dots: true,
+					autoplaySpeed : 500,
+					navSpeed : 500,
+					dotsSpeed : 500,
+					autoplayHoverPause: true,
+					margin:0
+					
+				});	  
+			});	
+		
+</script>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore  - SliderShow index 4</title>
+      <identifier>home-slider4</identifier>
+      <content><![CDATA[<div class="wrapper-slider4">
+<div class="container">
+<div class="row">
+<div class="content-top col-lg-offset-3 col-lg-9 col-md-12">{{block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml"}} {{block class="Sm\Deals\Block\Deals" name="deals" template="Sm_Deals::index4.phtml" product_limitation="3" dots="1" nb_column1="1" nb_column2="1" nb_column3="2" nb_column4="1" nb_column5="1" img_width="180" img_height="180"}}</div>
+</div>
+</div>
+</div>
+{{block class="Magento\\Cms\\Block\\Block" block_id="ft-boxsevicer"}}]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Right index 4</title>
+      <identifier>block-right-v4</identifier>
+      <content><![CDATA[<div class=" img-effect  block hidden-xs hidden-sm"><a class="img-class " href="#"> <img src="{{media url="wysiwyg/home-page-image/home-4/h4-1.jpg"}}" alt="" /> </a></div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Banner Center index 4</title>
+      <identifier>banner-center-v4</identifier>
+      <content><![CDATA[<div class="banner-center-home4">
+<div class="row">
+<div class="col-xs-6 col-phone-12">
+<div class="img-effect block"><a class="img-class" href="#"> <img src="{{media url="wysiwyg/home-page-image/home-4/t13.jpg"}}" alt="" /> </a></div>
+</div>
+<div class="col-xs-6 col-phone-12">
+<div class="img-effect block"><a class="img-class" href="#"> <img src="{{media url="wysiwyg/home-page-image/home-4/t14.jpg"}}" alt="" /> </a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Testimonials Index 4</title>
+      <identifier>block-testimonials4</identifier>
+      <content><![CDATA[<div class="block block-testimonials4">
+<div class="block-title"><strong>Testimonials</strong></div>
+<div class="slider-testimonials-home1">
+<div class="item">
+<div class="inner">
+<div class="images"><img src="{{media url="wysiwyg/testimonial/client-4.jpg"}}" alt="Brand" /></div>
+<h2 class="name">Johny Walker</h2>
+<div class="des">Lorem ipsum dolor sit amet, conmeturasdipiscing elit, sed do eiusmod temporace imcedidunt ut labore et dolore.</div>
+</div>
+</div>
+<div class="item">
+<div class="inner">
+<div class="images"><img src="{{media url="wysiwyg/testimonial/client-5.jpg"}}" alt="Brand" /></div>
+<h2 class="name">Johny Walker</h2>
+<div class="des">Lorem ipsum dolor sit amet, conmeturasdipiscing elit, sed do eiusmod temporace imcedidunt ut labore et dolore.</div>
+</div>
+</div>
+<div class="item">
+<div class="inner">
+<div class="images"><img src="{{media url="wysiwyg/testimonial/client-6.jpg"}}" alt="Brand" /></div>
+<h2 class="name">Johny Walker</h2>
+<div class="des">Lorem ipsum dolor sit amet, conmeturasdipiscing elit, sed do eiusmod temporace imcedidunt ut labore et dolore.</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" xml="space">
+		require(['jquery','owlcarousel'], function ($, owlCarousel) {
+			$('.slider-testimonials-home1').owlCarousel({
+				margin:30,
+				nav:true,
+				loop:false,
+				dots: true,
+				items:1
+			})
+		});
+</script>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStote - Banner Home 5</title>
+      <identifier>banner-home5</identifier>
+      <content><![CDATA[<div class="banner-home5">
+<div class="row">
+<div class="col-sm-6">
+<div class="img-effect img-banner1"><a class="img-class banner1" href="#"><img src="{{media url="wysiwyg/home-page-image/home-5/h51.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6">
+<div class="img-effect img-banner1"><a class="img-class banner1" href="#"><img src="{{media url="wysiwyg/home-page-image/home-5/h52.jpg"}}" alt="" /></a></div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Footer Links home 5</title>
+      <identifier>ft-links-bottom</identifier>
+      <content><![CDATA[<ul class="ft-links-bottom">
+<li><a title="Blog" href="#">Blog</a></li>
+<li><a title="FAQs" href="#">FAQs</a></li>
+<li><a title="About us" href="{{config path="web/secure/base_url"}}about-us.html">About us</a></li>
+<li><a title="Contact Us" href="{{config path="web/secure/base_url"}}contact-us.html">Contact Us</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 1</title>
+      <identifier>ft-col61-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>Men</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training &amp; Gym" href="#">Training &amp; Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Baseball" href="#">Baseball</a></li>
+<li><a title="Golf" href="#">Golf</a></li>
+<li><a title="Skateboarding" href="#">Skateboarding</a></li>
+<li><a title="Tennis" href="#">Tennis</a></li>
+<li><a title="Sandals &amp; Flip Flops" href="#">Sandals &amp; Flip Flops</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+<li><a title="All Men's Shoes" href="#" style=" font-weight: bold;margin-top: 25px;">All Men's Shoes</a></li>
+<li><a title="New Arrivals" href="#"  style=" font-weight: bold;">New Arrivals</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 2</title>
+      <identifier>ft-col62-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>WoMen</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training &amp; Gym" href="#">Training &amp; Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Baseball" href="#">Baseball</a></li>
+<li><a title="Golf" href="#">Golf</a></li>
+<li><a title="Skateboarding" href="#">Skateboarding</a></li>
+<li><a title="Tennis" href="#">Tennis</a></li>
+<li><a title="Sandals &amp; Flip Flops" href="#">Sandals &amp; Flip Flops</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+<li><a title="All Men's Shoes" href="#"  style=" font-weight: bold;margin-top: 25px;">All Men's Shoes</a></li>
+<li><a title="New Arrivals" href="#"  style=" font-weight: bold;">New Arrivals</a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 3</title>
+      <identifier>ft-col63-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>kids</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training & Gym" href="#">Training & Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Baseball" href="#">Baseball</a></li>
+<li><a title="Golf" href="#">Golf</a></li>
+<li><a title="Skateboarding" href="#">Skateboarding</a></li>
+<li><a title="Tennis" href="#">Tennis</a></li>
+<li><a title="Sandals & Flip Flops" href="#">Sandals & Flip Flops</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+<li><a title="All Men's Shoes" href="#"  style=" font-weight: bold;margin-top: 25px;">All Men's Shoes</a></li>
+<li><a title="New Arrivals" href="#"  style=" font-weight: bold;">New Arrivals</a></li>
+</ul>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 4</title>
+      <identifier>ft-col64-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>Baby</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training & Gym" href="#">Training & Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Baseball" href="#">Baseball</a></li>
+<li><a title="Golf" href="#">Golf</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+</ul>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 5</title>
+      <identifier>ft-col65-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>Extras</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training & Gym" href="#">Training & Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Baseball" href="#">Baseball</a></li>
+<li><a title="Tennis" href="#">Tennis</a></li>
+<li><a title="Sandals & Flip Flops" href="#">Sandals & Flip Flops</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+<li><a title="All Men's Shoes" href="#"  style=" font-weight: bold;margin-top: 25px;">All Men's Shoes</a></li>
+<li><a title="New Arrivals" href="#"  style=" font-weight: bold;">New Arrivals</a></li>
+</ul>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Block Footer col 6</title>
+      <identifier>ft-col66-block</identifier>
+      <content><![CDATA[<div class="block">
+<div class="footer-title">
+<h2>RESOURCES</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><a title="Lifestyle" href="#">Lifestyle</a></li>
+<li><a title="Running" href="#">Running</a></li>
+<li><a title="Training & Gym" href="#">Training & Gym</a></li>
+<li><a title="Basketball" href="#">Basketball</a></li>
+<li><a title="Football" href="#">Football</a></li>
+<li><a title="Soccer" href="#">Soccer</a></li>
+<li><a title="Sale" href="#">Sale</a></li>
+</ul>
+</div>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Call Us Footer home 6</title>
+      <identifier>ft-callus-v6</identifier>
+      <content><![CDATA[<div class="ft-callus-top">
+<p><i class="fa fa-comment"></i>LIVE CUSTOMER SUPPORT</p>
+<p><i class="fa fa-phone"></i>Hotline: 0123 456 7891</p>
+<p><i class="fa fa-envelope"></i> <a href="#">Email: Contact@domain.com</a></p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Banner Home 6</title>
+      <identifier>banner-home6</identifier>
+      <content><![CDATA[<div class="banner-home6">
+<div class="row">
+<div class="col-sm-8">
+<div class="img-effect">
+<a class="img-class" href="#"><img src="{{media url="wysiwyg/home-page-image/home-6/img61.jpg"}}" alt="" /></a>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="img-effect">
+<a class="img-class" href="#"><img src="{{media url="wysiwyg/home-page-image/home-6/img62.jpg"}}" alt="" /></a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="img-effect">
+<a class="img-class" href="#"><img src="{{media url="wysiwyg/home-page-image/home-6/img63.jpg"}}" alt="" /></a>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="img-effect">
+<a class="img-class" href="#"><img src="{{media url="wysiwyg/home-page-image/home-6/img64.jpg"}}" alt="" /></a>
+</div>
+</div>
+</div>
+</div>
+
+
+]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - View All index 6</title>
+      <identifier>view-all</identifier>
+      <content><![CDATA[<p><a title="View all" href="#">+ View all</a></p>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>ShoppyStore - Popicy shop index 6</title>
+      <identifier>policy-shop-6</identifier>
+      <content><![CDATA[<div class="policy-shop-6"><img src="{{media url="wysiwyg/home-page-image/home-6/layer 59.png"}}" alt="" />
+<h2>FREE SHIPPING &amp; RETURNS</h2>
+<p>on oders over $99</p>
+</div>]]></content>
+      <is_active>1</is_active>
+      <store_id>0</store_id>
+    </cms_item>
+  </blocks>
+</root>

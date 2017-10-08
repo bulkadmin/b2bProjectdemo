@@ -1,0 +1,115 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @copyright   Copyright (c) 2014 X.commerce, Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+ 
+	$welcomeMessage = $block->getWelcome();
+ 
+	$_config = $this->helper('Sm\ShoppyStore\Helper\Data');
+	$_color = $_config->getGeneral('theme_color');
+	$_header = $_config->getGeneral('header_style');
+	$homeStyle = $_config->getGeneral('home_style');
+
+?>
+
+<?php 
+	if($_config->getAdvanced('show_newsletter_popup')) {
+		echo $block->getChildHtml('popup-newsletter');	
+	}
+	if($_header == "hd-1" || $_header == null) {
+		include('header/header-1.phtml'); 		
+	}
+	
+	if($_header == "hd-2") {
+		include('header/header-2.phtml'); 		
+	}
+	if($_header == "hd-3") {
+		include('header/header-3.phtml'); 		
+	}
+	if($_header == "hd-4") {
+		include('header/header-4.phtml'); 		
+	}
+	if($_header == "hd-5") {
+		include('header/header-5.phtml'); 		
+	}
+	if($_header == "hd-6") {
+		include('header/header-6.phtml'); 		
+	}
+	if($_header == "hd-7") {
+		include('header/header-7.phtml'); 		
+	}
+?>
+
+<?php if($_config->getGeneral('menu_ontop')){ ?>
+	<script>
+		jQuery(document).ready(function($){ 
+		<?php 
+		if($_header == "hd-1" || $_header == "hd-2" || $_header == "hd-3" ||  $_header == "hd-4" || $_header == null) {
+			$elon = '.header-inner .yt-menu';
+		}
+		
+		elseif($_header == "hd-5") {
+			$elon = '.header-container.header-style-5';
+		}
+		else $elon="";
+		?>		
+			$elon = '<?php echo $elon; ?>';
+			$window = $(window);
+			if($($elon).length){
+				menu_offset_top = $($elon).offset().top + 100;
+				function processScroll() {
+					var scrollTop = $window.scrollTop() ;
+					if ( scrollTop  >= menu_offset_top) {
+						$($elon).addClass('menu-ontop');
+					} else if (scrollTop <= menu_offset_top) {
+						$($elon).removeClass('menu-ontop');
+					}
+				}
+				processScroll();
+				$window.scroll(function(){
+					processScroll();
+				});
+			}
+		});
+
+	</script>
+<?php } ?>	
+<script>
+	require(['jquery'], function ($) {
+		$('body').addClass("<?php echo $homeStyle . '-style'?>");
+		$('body').addClass("<?php echo $_header . '-style'?>");
+
+		<?php if( $_config->getThemeLayout('layout_style')=='boxed' ){?>
+			$('body').addClass("layout-boxed");
+		<?php } ?>
+
+		
+	});
+
+require(['jquery'], function ($) {
+    $(".header-container .dropdown-block-custom .dropdown-toggle").click(function(e){ 	
+        $(".dropdown-list").toggle();
+        
+    });
+});
+
+</script>

@@ -1,0 +1,616 @@
+<?xml version="1.0"?>
+<root>
+  <pages>
+    <cms_item>
+      <title>404 Not Found</title>
+      <identifier>no-route</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="page-404"><img src="{{media url="wysiwyg/404/404.jpg"}}" alt="" />
+<div class="inner-page">
+<h1 class="color-theme">Page note found</h1>
+<p>It looks like you may have a wrong turn. Don&rsquo;t worry... it happ</p>
+<a class="back-home color-theme" href="{{store url='home'}}">BACK TO HOME <em class="fa fa-arrow-circle-right"></em></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Home Page</title>
+      <identifier>home</identifier>
+      <content_heading>Home Page</content_heading>
+      <content><![CDATA[]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Enable Cookies</title>
+      <identifier>enable-cookies</identifier>
+      <content_heading>What are Cookies?</content_heading>
+      <content><![CDATA[<div class="enable-cookies cms-content">
+<p>"Cookies" are little pieces of data we send when you visit our store. Cookies help us get to know you better and personalize your experience. Plus they help protect you and other shoppers from fraud.</p>
+<p style="margin-bottom: 20px;">Set your browser to accept cookies so you can buy items, save items, and receive customized recommendations. Here’s how:</p>
+<ul>
+<li><a href="https://support.google.com/accounts/answer/61416?hl=en" target="_blank">Google Chrome</a></li>
+<li><a href="http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies" target="_blank">Internet Explorer</a></li>
+<li><a href="http://support.apple.com/kb/PH19214" target="_blank">Safari</a></li>
+<li><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Mozilla/Firefox</a></li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Privacy Policy</title>
+      <identifier>privacy-policy-cookie-restriction-mode</identifier>
+      <content_heading>Privacy Policy</content_heading>
+      <content><![CDATA[<div class="privacy-policy cms-content">
+    <div class="message info">
+        <span>
+            Please replace this text with you Privacy Policy.
+            Please add any additional cookies your website uses below (e.g. Google Analytics).
+        </span>
+    </div>
+    <p>
+        This privacy policy sets out how this website (hereafter "the Store") uses and protects any information that
+        you give the Store while using this website. The Store is committed to ensuring that your privacy is protected.
+        Should we ask you to provide certain information by which you can be identified when using this website, then
+        you can be assured that it will only be used in accordance with this privacy statement. The Store may change
+        this policy from time to time by updating this page. You should check this page from time to time to ensure
+        that you are happy with any changes.
+    </p>
+    <h2>What we collect</h2>
+    <p>We may collect the following information:</p>
+    <ul>
+        <li>name</li>
+        <li>contact information including email address</li>
+        <li>demographic information such as postcode, preferences and interests</li>
+        <li>other information relevant to customer surveys and/or offers</li>
+    </ul>
+    <p>
+        For the exhaustive list of cookies we collect see the <a href="#list">List of cookies we collect</a> section.
+    </p>
+    <h2>What we do with the information we gather</h2>
+    <p>
+        We require this information to understand your needs and provide you with a better service,
+        and in particular for the following reasons:
+    </p>
+    <ul>
+        <li>Internal record keeping.</li>
+        <li>We may use the information to improve our products and services.</li>
+        <li>
+            We may periodically send promotional emails about new products, special offers or other information which we
+            think you may find interesting using the email address which you have provided.
+        </li>
+        <li>
+            From time to time, we may also use your information to contact you for market research purposes.
+            We may contact you by email, phone, fax or mail. We may use the information to customise the website
+            according to your interests.
+        </li>
+    </ul>
+    <h2>Security</h2>
+    <p>
+        We are committed to ensuring that your information is secure. In order to prevent unauthorised access or
+        disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and
+        secure the information we collect online.
+    </p>
+    <h2>How we use cookies</h2>
+    <p>
+        A cookie is a small file which asks permission to be placed on your computer's hard drive.
+        Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit
+        a particular site. Cookies allow web applications to respond to you as an individual. The web application
+        can tailor its operations to your needs, likes and dislikes by gathering and remembering information about
+        your preferences.
+    </p>
+    <p>
+        We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page
+        traffic and improve our website in order to tailor it to customer needs. We only use this information for
+        statistical analysis purposes and then the data is removed from the system.
+    </p>
+    <p>
+        Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find
+        useful and which you do not. A cookie in no way gives us access to your computer or any information about you,
+        other than the data you choose to share with us. You can choose to accept or decline cookies.
+        Most web browsers automatically accept cookies, but you can usually modify your browser setting
+        to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+    </p>
+    <h2>Links to other websites</h2>
+    <p>
+        Our website may contain links to other websites of interest. However, once you have used these links
+        to leave our site, you should note that we do not have any control over that other website.
+        Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst
+        visiting such sites and such sites are not governed by this privacy statement.
+        You should exercise caution and look at the privacy statement applicable to the website in question.
+    </p>
+    <h2>Controlling your personal information</h2>
+    <p>You may choose to restrict the collection or use of your personal information in the following ways:</p>
+    <ul>
+        <li>
+            whenever you are asked to fill in a form on the website, look for the box that you can click to indicate
+            that you do not want the information to be used by anybody for direct marketing purposes
+        </li>
+        <li>
+            if you have previously agreed to us using your personal information for direct marketing purposes,
+            you may change your mind at any time by letting us know using our Contact Us information
+        </li>
+    </ul>
+    <p>
+        We will not sell, distribute or lease your personal information to third parties unless we have your permission
+        or are required by law to do so. We may use your personal information to send you promotional information
+        about third parties which we think you may find interesting if you tell us that you wish this to happen.
+    </p>
+    <p>
+        You may request details of personal information which we hold about you under the Data Protection Act 1998.
+        A small fee will be payable. If you would like a copy of the information held on you please email us this
+        request using our Contact Us information.
+    </p>
+    <p>
+        If you believe that any information we are holding on you is incorrect or incomplete,
+        please write to or email us as soon as possible, at the above address.
+        We will promptly correct any information found to be incorrect.
+    </p>
+    <h2><a name="list"></a>List of cookies we collect</h2>
+    <p>The table below lists the cookies we collect and what information they store.</p>
+    <table class="data-table data-table-definition-list">
+        <thead>
+        <tr>
+            <th>Cookie Name</th>
+            <th>Cookie Description</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>FORM_KEY</th>
+                <td>Stores randomly generated key used to prevent forged requests.</td>
+            </tr>
+            <tr>
+                <th>PHPSESSID</th>
+                <td>Your session ID on the server.</td>
+            </tr>
+            <tr>
+                <th>GUEST-VIEW</th>
+                <td>Allows guests to view and edit their orders.</td>
+            </tr>
+            <tr>
+                <th>PERSISTENT_SHOPPING_CART</th>
+                <td>A link to information about your cart and viewing history, if you have asked for this.</td>
+            </tr>
+            <tr>
+                <th>STF</th>
+                <td>Information on products you have emailed to friends.</td>
+            </tr>
+            <tr>
+                <th>STORE</th>
+                <td>The store view or language you have selected.</td>
+            </tr>
+            <tr>
+                <th>USER_ALLOWED_SAVE_COOKIE</th>
+                <td>Indicates whether a customer allowed to use cookies.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-SESSID</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-STORAGE</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-STORAGE-SECTION-INVALIDATION</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-CACHE-TIMEOUT</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>SECTION-DATA-IDS</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>PRIVATE_CONTENT_VERSION</th>
+                <td>Facilitates caching of content on the browser to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>X-MAGENTO-VARY</th>
+                <td>Facilitates caching of content on the server to make pages load faster.</td>
+            </tr>
+            <tr>
+                <th>MAGE-TRANSLATION-FILE-VERSION</th>
+                <td>Facilitates translation of content to other languages.</td>
+            </tr>
+            <tr>
+                <th>MAGE-TRANSLATION-STORAGE</th>
+                <td>Facilitates translation of content to other languages.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>About us</title>
+      <identifier>about-us</identifier>
+      <content_heading>About us</content_heading>
+      <content><![CDATA[<div class="about-info cms-content">
+      <p class="cms-content-important">With more than 230 stores spanning 43 states and growing, Luma is a nationally recognized active wear manufacturer and retailer. We’re passionate about active lifestyles – and it goes way beyond apparel.</p>
+
+      <p>At Luma, wellness is a way of life. We don’t believe age, gender or past actions define you, only your ambition and desire for wholeness... today.</p>
+
+      <p>We differentiate ourselves through a combination of unique designs and styles merged with unequaled standards of quality and authenticity. Our founders have deep roots in yoga and health communities and our selections serve amateur practitioners and professional athletes alike.</p>
+
+      <ul style="list-style: none; margin-top: 20px; padding: 0;">
+          <li><a href="{{store url="contact"}}">Contact Luma</a></li>
+          <li><a href="{{store url="customer-service"}}">Customer Service</a></li>
+          <li><a href="{{store url="privacy-policy"}}">Luma Privacy Policy</a></li>
+          <li><a href="{{store url=""}}">Shop Luma</a></li>
+      </ul>
+  </div>
+]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Customer Service</title>
+      <identifier>customer-service</identifier>
+      <content_heading>Customer Service</content_heading>
+      <content><![CDATA[<div class="customer-service cms-content">
+  <div class="cms-content-important">
+      <h2>Luma Delivery and Returns</h2>
+      <p>We hope you love shopping with Luma. Here are our delivery and returns policies to help make sure we meet your expectations. <a href="{{store url="contact"}}">Contact Us.</a></p>
+  </div>
+
+  <h2>Shipping and Delivery</h2>
+  <p>Shipping and Delivery is the charge for internet order processing, item selection, packaging, transport and handling. We don’t guarantee delivery times, but we do our best to provide accurate estimates.</p>
+
+  <p>Deliveries occur only on weekdays. Shipping and Delivery charges are subject to change and are determined when you order. Estimated delivery time assumes orders are placed before 12:00 noon (PST). Orders you place with Luma late on Friday or on Saturday will not be processed until Monday. Charges may be added to orders with Priority, Overnight and International shipping if we try unsuccessfully to deliver your order more than once.</p>
+
+  <p>Delivery addresses in Alaska, Hawaii, Puerto Rico, and Guam should add an additional $5.00 charge for standard Shipping & Delivery. Orders arrive in 7 to 9 business days when ordered before 12:00 noon (PST).</p>
+
+  <div class="table-wrapper">
+      <table>
+          <caption>Shipping and Delivery</caption>
+          <thead>
+              <tr>
+                  <th><strong>Merchandise total *</strong></th>
+                  <th><strong>STANDARD</strong><br />5&mdash;7 day shipping **</th>
+                  <th><strong>PRIORITY</strong><br />2&mdash;3 day shipping **</th>
+                  <th><strong>OVERNIGHT</strong><br />Next business day **</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th>Up to $200</th>
+                  <td>$16</td>
+                  <td>$26</td>
+                  <td>$33</td>
+              </tr>
+              <tr>
+                  <th>$200.01&mdash;500.00</th>
+                  <td>$21</td>
+                  <td>$31</td>
+                  <td>$38</td>
+              </tr>
+              <tr>
+                  <th>$500.01&mdash;1000.00</th>
+                  <td>$29</td>
+                  <td>$39</td>
+                  <td>$46</td>
+              </tr>
+              <tr>
+                  <th>Over $1000.00</th>
+                  <td>$34</td>
+                  <td>$44</td>
+                  <td>$51</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <p>
+      <small>*before tax and additional charges</small><br />
+      <small>**after processing if ordered by 12:00 noon PST</small>
+  </p>
+
+  <h2 style="margin-top: 40px;">Returns and Replacements</h2>
+  <p>We want you to be completely happy with your Luma order. If for any reason you are not satisfied, we will gladly accept your timely return of unworn, unwashed, or defective merchandise. Used merchandise cannot be returned unless defective. Returned merchandise should include the vendor packaging and tags and be in the same condition as when it was received. A pickup and/or restock fee may apply. Merchandise must be returned within 30 days of receipt of merchandise.</p>
+
+  <h3>Returning Gifts</h3>
+  <p>When returning a gift, a Luma Gift Card will be issued to the gift recipient for the amount of the returned merchandise. The card can be used for purchases from any Luma store, and online. In compliance with Federal law, for gifts valued at more than $2,000.00, the recipient will receive a check rather than an Luma Gift Card.</p>
+
+  <h3>Returning Merchandise by Mail</h3>
+  <p>On the back of the packing slip enclosed with your Luma order, please note the reason(s) for return and whether you wish to  exchange the item(s) or receive a credit/refund (depending on the original form of  payment).</p>
+  <p>Enclose the return section of the packing slip with your item(s). Please use one  of the return labels provided on the front of your packing slip to ensure proper  return address and credit information. Restricted items must be returned using  ground transportation.</p>
+  <p>Please allow 10 to 14 days for Luma to process your return.</p>
+</div>
+]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V1</title>
+      <identifier>home-style-1</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="row">
+<div class="col-lg-3 col-md-3">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts" template="Sm_BasicProducts::basic-accordion.phtml" product_category="11,20" product_limitation="5" title="Best Sellers"}} {{block class="Magento\\Cms\\Block\\Block" block_id="blog-block-index1"}}</div>
+<div class="col-lg-9 col-md-9">
+<div class="basicproduct1">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts1" template="Sm_BasicProducts::basic-slider.phtml" title="Electronics" product_category="46" nb_column1="4" nb_column2="3" nb_column3="3" nb_column4="2"}}</div>
+{{block class="Magento\\Cms\\Block\\Block" block_id="banner-ct1"}}
+<div class="basicproduct2">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts2" template="Sm_BasicProducts::basic-slider.phtml" title="JEWELRY WATCHES " product_category="119" nb_column1="4" nb_column2="3" nb_column3="3" nb_column4="2"}}</div>
+</div>
+</div>
+<div>{{block class="Magento\\Cms\\Block\\Block" block_id="banner-ct2"}}</div>
+<div class="basicproduct3">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts3" template="Sm_BasicProducts::basic-slider.phtml" title="bags shoes" product_category="11,20" nb_column1="5" nb_column2="4" nb_column3="3" nb_column4="2"}}</div>
+<div class="tabsproduct1">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.tabs1" template="Sm_ListingTabs::default-style1.phtml" title="Top Selling" product_order_by="best_sales" filter_type="categories" product_category="46,117,119,120,121,142,143,144,145,147" nb_rows="1" icon_display="1" margin="0" nb_column1="4" nb_column2="3" pretext="pretext-tabs1"}}</div>
+<p>{{block class="Magento\\Cms\\Block\\Block" block_id="slider-brand"}}</p>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceContainer name="main.content">
+<block class="Magento\Cms\Block\Block" name="home-slider1" before="-">
+	<arguments>
+		<argument name="block_id" xsi:type="string">home-slider1</argument>
+	</arguments>
+</block>
+</referenceContainer>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>All categories</title>
+      <identifier>sub-cateogries1</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="block-cat">
+ <div class="content-cat">
+  <div class="row">
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/mobile-accessories.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/00.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Mobile Accessories" href="#">Mobile Accessories</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/beauty-women.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/01.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Beauty Women" href="#">Home Appliances</a>
+     </div>
+    </div>
+   </div>
+
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="craft-supplies.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/02.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Craft-supplies" href="#">Smartphones & Tablet</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="kid-baby.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/03.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="Kid Baby" href="#">Computers & Laptops</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/televisions.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/04.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="televisions" href="#">Televisions</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/secondhand.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/05.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="secondhand" href="#">Mobile Accessories</a>
+     </div>
+    </div>
+   </div>
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="accessories/pc-components.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/06.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="pc-components" href="#">Pc Components</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="fashion-accesories/men.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/08.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="men" href="#">Mobile & Ipad</a>
+     </div>
+    </div>
+   </div>
+   
+   <div class="cat-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <div class="cat-inner">
+     <a href="fashion-accesories/women.html" class="img-cat">
+      <img src="{{media url="wysiwyg/bg-cat/07.jpg"}}" alt="" />
+     </a>
+     <div class="name-cat font-etro">
+      <a title="women" href="#">Electonic Televisions</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V2</title>
+      <identifier>home-style-2</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-banner-wrap">{{block class="Magento\\Cms\\Block\\Block" block_id="block-banner-top"}}</div>
+<div class="row">
+<div class="col-lg-3 col-md-3 col-home2">{{block class="Magento\\Cms\\Block\\Block" block_id="vertical-menu-config"}} {{block class="Magento\Newsletter\Block\Subscribe" name="newsletter2" template="Magento_Newsletter::subscribe-index2.phtml"/}}{{block class="Sm\Deals\Block\Deals" name="deals" template="Sm_Deals::index2.phtml" title="LATEST DEALS" product_category="37" product_limitation="3" nav="1" dots="0" nb_column1="1" nb_column2="1" nb_column3="1" nb_column4="1" nb_column5="1"}}{{block class="Magento\\Cms\\Block\\Block" block_id="banner-left-home2"}}</div>
+<div class="yt-main-right yt-main index-home2 col-main col-lg-9 col-md-9">
+<div class="producttabs-top">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.2" template="Sm_ListingTabs::default.phtml" display_title="0" filter_type="fieldproducts" filter_order_by="lastest_product,best_sales,most_reviewed" product_category="37" nb_rows="1" margin="30" nb_column1="3" nb_column2="3" pretext=""}}</div>
+<div>{{block class="Magento\\Cms\\Block\\Block" block_id="content-home-banner-v2"}}</div>
+<div class="producttabs-bottom">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.21" template="Sm_ListingTabs::default.phtml" title="Special Products" filter_type="categories" product_category="148,149,150" product_order_by="created_at" nb_rows="2" margin="30" nb_column1="3" nb_column2="3" pretext=""}}</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceContainer name="main.content">
+<block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml"  before="-"  >
+</block>
+<block class="Magento\Cms\Block\Block" name="block-index-bottom">
+	<arguments>
+		<argument name="block_id" xsi:type="string">block-index-bottom</argument>
+	</arguments>
+</block>
+</referenceContainer>
+<referenceBlock name="subscribe-footer" remove="true" />
+
+]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Page Deals</title>
+      <identifier>page-deals</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<p>{{block class="Sm\Deals\Block\Deals" name="deals-page" template="Sm_Deals::page-deals.phtml" title="" product_limitation="10" after="deals-item" use_slider="0"}}</p>]]></content>
+      <is_active>1</is_active>
+      <page_layout>2columns-left</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V3</title>
+      <identifier>home-style-3</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-style-3">{{block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml" before="-"}} {{block class="Magento\\Cms\\Block\\Block" block_id="banner-home-v3"}} {{block class="Sm\Deals\Block\Deals" name="deals3" template="Sm_Deals::index3.phtml" title="LATEST DEALS" product_category="11" product_limitation="10" dots="0" nb_column1="4" nb_column2="3" nb_column3="3" nb_column4="2" nb_column5="1" margin="30"}}
+<div class="tabsproduct1-v3 section1">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.tabs1" template="Sm_ListingTabs::default-style1.phtml" title="SPORTS<span>&amp; Ourtdoors</span>" product_order_by="created_at" filter_type="categories" product_category="73,74,75" nb_rows="1" margin="0" nb_column1="4" nb_column2="3" pretext="pretext-tabs1-v3"}}</div>
+<div class="tabsproduct1-v3 section2">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.tabs2" template="Sm_ListingTabs::default-style1.phtml" title="JEWELRY<span>&amp; WATCHES</span>" product_order_by="created_at" filter_type="categories" product_category="76,115,116" nb_rows="1" margin="0" nb_column1="4" nb_column2="3" pretext="pretext-tabs2-v3"}}</div>
+{{block class="Magento\\Cms\\Block\\Block" block_id="slider-brand"}}
+<div class="row">
+<div class="bottom-banner-v3 mr40 col-lg-3 col-md-3">{{block class="Magento\\Cms\\Block\\Block" block_id="banner-bottom-v3"}}</div>
+<div class="col-lg-9 col-md-9">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 mr40 client-say-bottom">{{block class="Magento\\Cms\\Block\\Block" block_id="client-say-v3"}}</div>
+<div class="blog-bottomv3 col-lg-6 col-md-6 col-sm-6 mr40">{{block class="Magento\\Cms\\Block\\Block" block_id="blog-bottom-v3"}}</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceBlock name="subscribe-footer" remove="true" />]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V4</title>
+      <identifier>home-style-4</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-style-4">
+<div class="row">
+<div class="col-lg-9 col-md-9 inner-right">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 box-extra-left">
+<div class="electronics">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts1" template="Sm_BasicProducts::basic-slider.phtml" title="Electronics" product_category="117" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+<div class="furniture">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts2" template="Sm_BasicProducts::basic-slider.phtml" title="Furniture" product_category="142" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+<div class="smartphone">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts3" template="Sm_BasicProducts::basic-slider.phtml" title="Smartphone" product_category="121" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 box-extra-right">
+<div class="fashion">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts4" template="Sm_BasicProducts::basic-slider.phtml" title="Fashion" product_category="120" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+<div class="sport">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts5" template="Sm_BasicProducts::basic-slider.phtml" title="Sport &amp; Jewelry" product_category="145" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+<div class="accessories">{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts6" template="Sm_BasicProducts::basic-slider.phtml" title="Accessories" product_category="46" nb_column1="2" nb_column2="1" nb_column3="1" nb_column4="2"}}</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3">{{block class="Magento\\Cms\\Block\\Block" block_id="block-right-v4"}}{{block class="Magento\\Cms\\Block\\Block" block_id="blog-block-index1"}}{{block class="Magento\\Cms\\Block\\Block" block_id="block-testimonials4"}}</div>
+</div>
+{{block class="Magento\\Cms\\Block\\Block" block_id="banner-center-v4"}}
+<div class="block bestseller">{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.tabs4" template="Sm_ListingTabs::default.phtml" title="Best-selling" product_order_by="created_at" filter_type="categories" product_category="121,142,143,144,145,147" nb_rows="1" margin="0" nb_column1="5" nb_column2="4" nb_column3="3" img_width="220" img_height="220" product_limitation="6"}}</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceContainer name="main.content">
+<block class="Magento\Cms\Block\Block" name="home-slider4" before="-">
+	<arguments>
+		<argument name="block_id" xsi:type="string">home-slider4</argument>
+	</arguments>
+</block>
+</referenceContainer>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V5</title>
+      <identifier>home-style-5</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<div class="home-style-5">{{block class="Magento\\Cms\\Block\\Block" block_id="banner-home5"}}{{block class="Sm\ListingTabs\Block\ListingTabs" name="listingtabs.home.tabs5" template="Sm_ListingTabs::default-style2.phtml" title="our products" product_order_by="best_sales" filter_type="categories" product_category="164,165,166,167,168,169" style="style1" nb_rows="5" show_loadmore_slider="loadmore" product_limitation="16" icon_display="0" margin="30" nb_column1="4" nb_column2="3" nb_column3="2" nb_column4="1" nb_column5="1" pretext="" img_width="450" img_height="600"}}</div>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceContainer name="main.content">
+<block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml" before="-">
+</block>
+</referenceContainer>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V6</title>
+      <identifier>home-style-6</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[<p>{{block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml"}}{{block class="Magento\\Cms\\Block\\Block" block_id="banner-home6"}}{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts6" template="Sm_BasicProducts::basic-slider-style.phtml" title="Featured" product_order_by="lastest_product" product_category="170" pretext="view-all" nb_column1="4" nb_column2="3" img_width="330" img_height="330"}}{{block class="Sm\BasicProducts\Block\BasicProducts" name="basicproducts6" template="Sm_BasicProducts::basic-slider-style.phtml" title="Best sellers" product_order_by="best_sales" product_category="170" pretext="view-all" nb_column1="4" nb_column2="3" img_width="330" img_height="330"}}</p>]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+    <cms_item>
+      <title>Shoppy Store - Responsive Magento 2 &amp; 1.9 Theme V7</title>
+      <identifier>home-style-7</identifier>
+      <content_heading></content_heading>
+      <content><![CDATA[]]></content>
+      <is_active>1</is_active>
+      <page_layout>1column</page_layout>
+      <layout_update_xml><![CDATA[<referenceContainer name="main.content">
+<block class="Sm\ImageSlider\Block\ImageSlider" name="imageslider" template="Sm_ImageSlider::default.phtml">
+</block>
+</referenceContainer>]]></layout_update_xml>
+      <store_id>0</store_id>
+    </cms_item>
+  </pages>
+</root>

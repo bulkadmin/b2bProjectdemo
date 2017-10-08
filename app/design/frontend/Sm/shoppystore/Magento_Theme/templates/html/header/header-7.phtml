@@ -1,0 +1,93 @@
+<div class="header-style-7">
+<div class="header-container">
+    <div class="header">
+		<div class="header-inner">
+		 <div class="container">
+			<div class="row">
+				 <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs pull-left">
+				  	<?php echo $block->getChildHtml('logo-header'); ?>	
+				  </div>
+				  <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12 pull-right">
+				   <div class="wrapper-header">
+				  	<div class="yt-header-topv2 header-top">
+				  		<div class="row">
+							<div class="col-lg-6 col-md-5 hidden-sm hidden-xs sl-header-text">
+								<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('contact-header')->toHtml(); ?>
+							</div>
+							<div class="col-lg-6 col-md-7 top-links-action">
+								<?php echo $block->getChildHtml('language-header'); ?>	
+								<?php echo $block->getChildHtml('currency-header'); ?>		
+								<div class="dropdown-block-custom block-myacount">
+								<div class="dropdown-toggle">
+									<a class="help-link" title="<?php echo __('My Account');?>"><?php echo __('My Account');?></a>
+								</div>
+								<ul class="dropdown-list">
+									<li class="mn-my-account"><a class="myaccount-link" href="<?php echo $block->getUrl('customer/account'); ?>" title="<?php echo __('My Account');?>"><?php echo __('My Account');?></a></li>							
+									<li class="mn-top-link-checkout"><a class="top-link-checkout" href="<?php echo $block->getUrl('checkout')?>" title="<?php echo __('Checkout');?>"><?php echo __('Checkout');?></a></li>
+									<li class="my-wishlist"><a  href="<?php echo $block->getUrl('wishlist')?>" title="<?php echo __('My Wishlist');?>"><?php echo __('My Wishlist');?></a></li>
+									<?php 
+									$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+									$customerSession = $objectManager->get('Magento\Customer\Model\Session');
+									if($customerSession->isLoggedIn()) { ?>
+									   <li class="mn-logout"><a href="<?php echo $block->getUrl('customer/account/logout')?>" title="<?php echo __('Logout');?>"><?php echo __('Logout');?></a></li>
+									<?php }else { ?>
+									<li class="mn-login"><a class="popup-login" href="<?php echo $block->getUrl('customer/account/login')?>" title="<?php echo __('Login')?>"><?php echo __('Login')?></a></li>										
+									<?php }
+									?>
+
+								</ul>							
+							</div>	
+							<div class="mn-my-wishlist pull-right hidden-xs"><a class="my-wishlist" href="<?php echo $block->getUrl('wishlist')?>" title="<?php echo __('My Wishlist');?>"><?php echo __('My Wishlist');?></a></div>
+							</div>
+						</div>
+				  	</div>
+				
+				  	<!-- end headertop -->
+				   <div class="col-lg-12 hidden-lg hidden-md hidden-sm visible-xs reponsiver-logo">
+				  	<?php echo $block->getChildHtml('logo-header'); ?>	
+				  </div>
+				  	<div class="yt-header-middle">
+				  		<div class="yt-header-under">
+				  			<div class="yt-menu">
+									<div class="menu-under">					
+										<div class="navigation-container <?php ($_config->getGeneral('menu_style') == 'megamenu') ? "":" css-menu-wrap"; ?>">
+											<?php
+												if($_config->getGeneral('menu_style') == 'megamenu'){
+													echo $block->getChildHtml('navigation-header-megamenu');
+												} else {
+													echo $block->getChildHtml('navigation-header');
+												}
+											?>
+											<div class="navigation-mobile-container">
+												<?php echo $block->getChildHtml('navigation.mobile'); ?>
+											</div>
+										</div>
+									</div>
+							</div>
+							<?php echo $block->getChildHtml('cart-header'); ?>
+							<div class="yt-searchpro">
+								<a class="btn-search-mobilev2 icon-search" title="Search" href="javascript:void(0)"></a>
+								<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('search-box')->toHtml();?>
+							</div>
+							
+				  		</div>
+				  	</div>
+				  	</div>
+				  </div>
+
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+
+	require(['jquery'], function ($) {
+		$( ".btn-search-mobilev2" ).click(function() {
+			$('.sm-searchbox').toggleClass('show')
+			$(this).toggleClass('active')
+		});
+	});
+											
+</script>

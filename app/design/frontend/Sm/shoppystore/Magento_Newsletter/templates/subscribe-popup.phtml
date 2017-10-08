@@ -1,0 +1,79 @@
+<?php
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<div class="display-popup">
+	<div id="newsletter-popup">
+		<div class="promotional-popup">
+			<div class="pop-subscribe">
+				<div class="title-home">
+					<h2 class="color-theme"><?php echo __('Daily Promotion') ?></h2>
+					<div class="desc"><?php echo __('SIGN UP FOR NEWSLETTER') ?></div>
+				</div>
+				<form class="form subscribe"
+						novalidate
+						action="<?php /* @escapeNotVerified */ echo $block->getFormActionUrl() ?>"
+						method="post"
+						data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+						id="newsletter-validate-detail-popup">
+						
+						<div class="input-box">
+							<input name="email" type="email" id="newsletter-input"
+											onfocus="if(this.value=='Enter your email address') this.value='';" onblur="if(this.value=='') this.value='Enter your email address';" value="Enter your email address"
+											data-validate="{required:true, 'validate-email':true}"/>
+						</div>
+
+						<button class="action subscribe primary" title="<?php /* @escapeNotVerified */ echo __('Submit') ?>" type="submit">
+							<span><?php /* @escapeNotVerified */ echo __('Submit') ?></span>
+						</button>
+						
+						<div class="subscribe-bottom"><div id="uniform-dont-show-again" class="checker"><span><input id="dont-show-again" type="checkbox"></span></div><label for="dont-show-again"><?php echo __('Don\'t show this popup again')?></label></div>
+						
+						
+				</form>
+			</div>
+		</div>      
+	</div>
+</div>
+
+<script type="text/javascript">
+	require([
+		'jquery',
+		'jquerycookie',
+		'jqueryfancyboxpack'
+	], function ($) {
+		var check_cookie = jQuery.cookie('newsletter_popup');
+		if(check_cookie == null || check_cookie == 'shown') {
+			 popupNewsletter();
+		 }
+		jQuery('#newsletter-popup .subscribe-bottom input').on('click', function(){
+			if(jQuery(this).parent().find('input:checked').length){
+				var check_cookie = jQuery.cookie('newsletter_popup');
+			   if(check_cookie == null || check_cookie == 'shown') {
+					jQuery.cookie('newsletter_popup','dontshowitagain');
+				}
+				else
+				{
+					jQuery.cookie('newsletter_popup','shown');
+					popupNewsletter();
+				}
+			} else {
+				jQuery.cookie('newsletter_popup','shown');
+			}
+		}); 
+	});
+
+	function popupNewsletter() {
+		jQuery(document).ready(function($) {
+			$.fancybox.open('#newsletter-popup');
+		});		
+	};
+	 
+</script>
+
+

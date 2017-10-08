@@ -1,0 +1,111 @@
+.cms-index-index  {
+	.header-bottom .headerbt-wrapper .menu-cart .yt-menu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a {
+		color:#333 !important;
+	}
+
+}
+
+.header-style-3{
+	background-color: #fff;
+	.header-top {
+	background-color: #f7f7f7;
+	border-bottom: 1px solid @border-color;
+	height: 35px;
+	   .custom {
+		    border-right: 1px solid @border-color;
+		    display: inline-block;
+		    float: right;
+		    margin: 8px 0;
+		    padding: 0 12px 0 0;
+		    &.login:before{.font-awesome (f023,13px);margin-right:7px;}
+		    &.logout:before{.font-awesome (f09c, 13px);margin-right:7px;}
+		}
+	    .offer-wrapper{
+	    	line-height: 35px;
+		    max-height: 35px;
+		    overflow: hidden;
+		    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+		    	font-size:11px;
+		    }
+	    }
+	}
+	.header-middle {
+		  padding: 15px 0 30px;
+		  .search-form-action {
+			    float: right;
+			    margin-top: 12px;
+			    width: 55%;
+			    .actions button.action{
+			    	background: transparent !important;
+			    	&:before{color:#999;}
+			    	&:hover{
+			    		background:transparent;
+			    		&:before{color:@color_theme;}
+			    	} 
+			    }
+			}
+	}
+	.header-bottom .headerbt-wrapper {
+		background-color: @color_theme;
+		height: 52px;
+		.block-title-menu{
+			background: @color_theme_active;
+		}
+	    .menu-cart {
+		  	 float: left;
+		    position: relative;
+		    width: 100%;
+		    
+		    .yt-menu {
+		    	display: inline-block;
+		    	margin-top: 8px;
+		    	.sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li {
+		    		> a {
+		    			color: #fff !important;		
+		    		}
+		    		&:hover > a , &.sm_megamenu_actived > a {color:#333 !important;}
+		    	}
+		    	
+		    }
+		    .cart-wrapper {
+		    	float: right;
+		    	border-left: 1px solid #2cbdff;
+			    height: 52px;
+			    padding: 0 20px 0 7px;
+		    	.showcart{
+		    		border: 0px !important;line-height: inherit;
+		    		background: transparent !important;
+					color: #fff;
+			   		font-size: 116.67%;
+			   		height: 100%;
+			   		@media (max-width: 1200px) {
+				   		.price-minicart {
+				   			display: none;
+				   		}
+				   		.counter-label::after {display: none;}
+			   		}
+		    		.counter.qty {
+		    			border: 0px !important; 
+		    			margin: 9px 0 ;
+		    			cursor: pointer;
+					    display: inline-block;
+					    height: 32px;
+					    line-height: 30px;
+					    padding-left: 40px;
+					    padding-right: 10px;
+					    position: relative;
+					    text-align: center;
+					    text-transform: uppercase;
+		    			&:after{
+		    				background:url("../images/icon-cart-v3.png") no-repeat center center;
+		    			}
+		    		}
+		    	}
+		    }
+		  }
+	    
+	}
+}
+
+
+

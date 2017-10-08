@@ -1,0 +1,100 @@
+.header-style-2 {
+	.header-inner{
+		 background-color: #fff;
+	    border-top: 2px solid @color_theme;
+	}
+	.header-top {
+	background-color: #fff;
+	border-bottom: 1px solid @border-color;
+	height: 36px;
+	   .custom {
+		    display: inline-block;
+		    float: right;
+		    margin: 8px 0;
+		    padding: 0 12px 0 0;
+		    &.login:before{.font-awesome (f023,13px);margin-right:7px;}
+		    &.logout:before{.font-awesome (f09c, 13px);margin-right:7px;}
+	
+		}
+	    .offer-wrapper{
+	    	line-height: 35px;
+		    max-height: 35px;
+		    overflow: hidden;
+	    }
+}
+	.logo-wrapper {
+		background-color: @color_theme;
+	    min-height: 120px;
+	    padding: 20px 0 0 20px;
+	}
+	.yt-header-topv2 {
+		border-bottom: 1px solid @border-color;
+	    height: 40px;
+	    margin-left: 15px;	
+	    background-color: #fff;
+	}
+	.yt-menu {
+        display: inline-block;
+		.sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li > a {
+			font-weight: bold;
+		}
+	}
+	.cart-wrapper{
+		float: right;
+	    position: relative;
+	    top: -4px;
+	    height: 45px;
+		.showcart {
+			border: 0px;
+			background: @color_theme;
+			height: 45px;
+			line-height: 45px;
+			.border_radius(5px);
+			.counter.qty {
+				border: 0px;
+				margin: 7px 0;
+				&:after{
+					background:url("../images/icon-cartv2.png") no-repeat scroll center center;
+				}
+			}
+		}
+		.minicart-wrapper .block-minicart {right: -58px;}
+	}
+	.yt-header-middle {
+    	margin: 21px 0 15px;
+    	position: relative;
+
+	}
+	.yt-searchpro{
+		 float: right;
+	    margin-left: 10px;
+	    position: relative;
+	    top: -4px;
+		.btn-search-mobilev2 {
+		    border: 1px solid @border-color;
+		    .border_radius(4px);
+		    display: inline-block;
+		    font-size: 16px;
+		    height: 45px;
+		    line-height: 40px;
+		    text-align: center;
+		    width: 45px;
+		    &:before{.font-awesome (f002, 16px) ;color: #999;}
+		}
+		.sm-searchbox {
+		    background: #fff none repeat scroll 0 0;
+		    top: 100%;
+		    display: none;
+		    position: absolute;
+		    right: 0;
+		    z-index: 9;
+		    width: 415px;
+		    &.show {display: block !important;}
+		}	
+		.actions button.action {
+			background: transparent !important;
+			&:hover{background: transparent !important;}
+		}
+	}
+
+}

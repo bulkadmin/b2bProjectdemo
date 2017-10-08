@@ -1,0 +1,170 @@
+<?php
+/*------------------------------------------------------------------------
+# SM Basic Products - Version 2.1.0
+# Copyright (c) 2015 YouTech Company. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: YouTech Company
+# Websites: http://www.magentech.com
+-------------------------------------------------------------------------*/
+use Magento\Framework\App\Action\Action;
+$list = $block->_getSelectSource();
+$helper = $this->_helper();
+	
+if (!empty($list)) { 
+?>
+<div class="block-product-accordion block" >
+    <?php if ($this->_getConfig('pretext') != null) { ?>
+		<div class="bs-pretext">
+			<?php echo $this->_getConfig('pretext'); ?>
+		</div>
+	<?php } ?>
+
+	<?php if ($this->_getConfig('display_title', 1)) { ?>
+		<?php if ($this->_getConfig('title')) { ?>
+			<div class="block-title">
+				<strong><?php echo $this->_getConfig('title', 'Sm Basic Products'); ?></strong>
+			</div>
+		<?php } ?>
+	<?php } ?>
+
+    <div class="products-grid">
+        <!-- Begin bs-items     -->
+        <div class="panel-group" id="accordion" >
+            <?php  $j = 0;
+            foreach ($list as $_product) { $j++;
+                ?>
+                <!-- Begin bs-item-cf -->
+                <div class="panel  panel-default">
+                    <div id="heading<?php echo $j ;?>" class="panel-heading">
+                        <a class="<?php if($j != '1') echo 'collapsed' ?>" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $j ?> ">
+                             <span class="item-count"><?php echo $j;?></span>
+                             <h2 class="panel-title"><span><?php echo $helper->truncate($_product->title, $this->_getConfig('product_title_maxlength')); ?></span></h2>
+                        </a>  
+                    </div>     
+               
+                  <div id="collapse<?php echo $j ?>" class="panel-collapse collapse <?php if($j==1) echo 'in';?>">
+                   	<div class="panel-body">
+                       <div class="item-content">
+                        <div class="item">
+                       <div class="item-inner">
+                        <?php if ($_product->_image) { ?>
+                            <div class="box-image">
+                                <a class="product-image" href="<?php echo $_product->link ?>"
+                                   title="<?php echo $_product->title; ?>"
+                                    <?php echo $helper->parseTarget($this->_getConfig('target')); ?>
+                                    >
+                                    <img src="<?php echo $_product->_image; ?>"
+                                         title="<?php echo $_product->title; ?>"
+                                         alt="<?php echo $_product->title; ?>"
+                                        >
+                                </a>
+								<!--LABEL PRODUCT-->
+                               
+                               <?php
+                                $price = $_product->getPrice();
+                                $specialprice = $_product->getSpecialPrice();
+                                $specialPriceFromDate = $_product->getSpecialFromDate();
+                                $specialPriceToDate = $_product->getSpecialToDate();
+                                            
+                                $today = time();
+                                if($price){
+                                    $sale = round((($price-$specialprice)/$price)*100);
+                                }
+
+                                if ($specialprice) {
+                                if ($today >= strtotime($specialPriceFromDate) && $today <= strtotime($specialPriceToDate) || $today >= strtotime($specialPriceFromDate) && is_null($specialPriceToDate)) { ?>
+                                        <div class="label-product label-sale">
+                                            <span class="sale-product-icon">
+                                                <?php if($sale) { echo '-'.$sale.'%'; } else {echo __('Sale');} ?>
+                                            </span>
+                                        </div>
+                                    <?php }
+                                    }
+                                ?>
+								
+								<?php
+								$now = date("Y-m-d");
+                                $newsFrom = substr($_product->getNewsFromDate(), 0, 10);
+                                $newsTo = substr($_product->getNewsToDate(), 0, 10);
+								
+								if ($newsTo != '' || $newsFrom != '') {
+                                    if (($newsTo != '' && $newsFrom != '' && $now >= $newsFrom && $now <= $newsTo) || ($newsTo == '' && $now >= $newsFrom) || ($newsFrom == '' && $now <= $newsTo)) {?>
+                                            <div class="label-product label-new">
+												<span class="new-product-icon"><?php echo __('New'); ?></span>
+											</div>
+                                    <?php }
+                                } ?>			
+								<!--END LABEL PRODUCT-->
+								
+                            </div>
+                        <?php }?>
+
+                        <!-- Begin bs-content -->
+                        <?php  ?>
+						<div class="product details product-item-details box-info">
+							<?php if ((int)$this->_getConfig('product_title_display', 1)) { ?>
+                                <h2 class="product name product-item-name product-name">
+                                    <a href="<?php echo $_product->link; ?>" title="<?php echo $_product->title; ?>"
+                                        <?php echo $helper->parseTarget($this->_getConfig('target')); ?>
+                                        >
+                                        <?php echo $helper->truncate($_product->title, $this->_getConfig('product_title_maxlength')); ?>
+                                    </a>
+                                </h2>
+                            <?php } ?>
+							
+                                <?php if ((int)$this->_getConfig('product_price_display', 1)) {
+									echo $this->getProductPrice($_product);
+                                } ?>
+								
+							
+							
+                         
+							
+                        </div>
+						
+                        <!-- End bs-content -->
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                   </div> 
+                    <!-- End bs-item-inner -->
+                </div><!-- End bs-item-cf -->
+            <?php } ?>
+        </div>
+	
+        <!-- End bs-items -->
+    </div><!-- End Sm-basic-products -->
+   <?php if ($this->_getConfig('posttext') != null) { ?>
+		<div class="bs-posttext">
+			<?php echo $this->_getConfig('posttext'); ?>
+		</div>
+	<?php } ?>
+</div>	
+<?php
+} else {
+	echo '<h1 style="color:#f1703d;">Has no content to show!</h1>';
+}
+?>
+<script type="text/javascript">
+require(['jquery'], function ($) {
+    $(".panel-group .panel").each(function() {
+        if($(this).index() == 0) {
+            $(this).find(".panel-heading").addClass('active');
+        }
+        
+        var ua = navigator.userAgent,
+        event = (ua.match(/iPad/i)) ? "touchstart" : "click";
+        $(this).children(".panel-heading").bind(event, function() {
+            $(this).addClass(function() {
+                if($(this).hasClass("active")) return "";
+                return "active";
+            });
+    
+            
+            $(this).parent().siblings(".panel").find(".active").removeClass("active");
+        });
+    });
+     
+});
+</script>

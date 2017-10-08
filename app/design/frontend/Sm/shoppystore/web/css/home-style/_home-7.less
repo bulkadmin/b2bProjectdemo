@@ -1,0 +1,40 @@
+.cms-home-style-7.cms-index-index {
+	.sm-imageslider  {
+		overflow: hidden;
+		img {
+			min-height: 475px;
+			min-width: 600px;
+			@media (min-width: 768px) and (max-width: 1200px) {
+				min-height: 800px;
+				min-width: 1200px;
+			}
+		}
+
+		.owl-controls .owl-nav {
+				> div {
+				border: 0px;
+				overflow: inherit;
+				width: 25px;
+				height: 46px;
+				.border_radius(0px);
+				background: url("../images/prev-next-v5.png") no-repeat center center;
+				&:before{
+					display: none;
+				}
+				&.owl-prev {
+					background-position: 0px -56px;
+					&:hover{
+						background-position: 0px -168px;
+					}
+				}
+				&.owl-next {
+					background-position: 0px 0px;
+					&:hover{
+						background-position: 0px -112px;
+					}
+				}
+			}
+		}
+	}
+	
+}

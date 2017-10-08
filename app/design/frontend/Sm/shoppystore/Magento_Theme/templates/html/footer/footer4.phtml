@@ -1,0 +1,71 @@
+<div class="footer-style4">
+<div class="footer">
+		
+		
+		<div class="footer-top">
+			<div class="container">
+				<div class="wrapper-inner">
+				<div class="row">
+					<div class="col-md-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-callus-v6')->toHtml(); ?>	
+					</div>
+					<div class="col-md-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Newsletter\Block\Subscribe')->setTemplate('Magento_Newsletter::subscribe-footer2.phtml')->toHtml(); ?>
+					</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+			 <div class="wrapper-inner">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col61-block')->toHtml(); ?>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col62-block')->toHtml(); ?>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col63-block')->toHtml(); ?>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col64-block')->toHtml(); ?>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col65-block')->toHtml(); ?>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('ft-col66-block')->toHtml(); ?>
+					</div>
+				</div>
+					<div class="copyright">
+							<div class="footer-copyright-content">
+								<div class="row">
+									<div class=" col-md-8 col-sm-6">
+										<div class="copyright-footer">
+											<?php if($_config->getAdvanced('custom_copyright')){ ?>
+												<address><?php echo $_config->getAdvanced('copyright_content') ?></address>
+											<?php } else {?>
+												<address><?php /* @escapeNotVerified */ echo $block->getCopyright() ?></address>
+											<?php } ?>
+										</div>
+									</div>
+									
+									<div class="col-md-4 col-sm-6">
+										<div class="payment-footer">
+											<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('payment-footer')->toHtml(); ?>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			</div>
+			</div>
+		</div>
+	
+	</div>
+</div>	

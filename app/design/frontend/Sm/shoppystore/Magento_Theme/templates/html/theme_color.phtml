@@ -1,0 +1,172 @@
+<?php
+$_config = $this->helper('Sm\ShoppyStore\Helper\Data');
+$color  = $_config->getGeneral('theme_color');
+if($color == 'bue'){
+	$theme_color = '#02a8f3';
+	$color_theme_active = '#0288d1';	
+	$color_theme_bold = '#00547c';
+} 
+
+if($color == 'green'){
+	$theme_color = '#8ac249';
+	$color_theme_active = '#8ac249';
+	$color_theme_bold = '#468a00';
+}
+
+if($color == 'orange'){
+	$theme_color = '#fe5621';
+	$color_theme_active = '#fe5621';
+	$color_theme_bold = '#a27b01';
+}
+if($color == 'mazarine'){
+	$theme_color = '#014693';
+	$color_theme_active = '#00346f';
+	$color_theme_bold = '#014693';
+}
+
+if($color == 'red'){
+	$theme_color = '#DF1F26';
+	$color_theme_active = '#e70036';
+	$color_theme_bold = '#992e3e';
+}
+if($color == 'pink'){
+	$theme_color = '#e81d62';
+	$color_theme_active = '#e81d62';
+	$color_theme_bold = '#00948b';
+}
+if($color == 'brown'){
+	$theme_color = '#cf7c45';
+	$color_theme_active = '#cf7c45';
+	$color_theme_bold = '#cf7c45';
+}
+if($color == 'yellow'){
+	$theme_color = '#e99a2c';
+	$color_theme_active = '#e99a2c';
+	$color_theme_bold = '#e99a2c';
+}
+if($color == 'custom'){
+	$theme_color = $_config->getGeneral('custom_color_theme');
+}
+
+$img_path = $block->getViewFileUrl('images') . '/' . $color . '/';
+
+?>
+
+<style>
+a:hover,.footer-wrapper-content a:hover{
+		color: <?php echo $theme_color;?> ;
+	}
+
+
+ button:hover, .button:hover,.about-us .content-faq .panel .panel-title a::after, .about-us .content-faq .panel .panel-title a::before, #yt-totop:hover, .products-list .item .item-inner .box-image-list .sm_quickview_handler:hover, .products-grid .item .item-inner .box-info .btn-cart:hover, .modal-footer button.action-primary.action-accept, .toolbar .modes .modes-mode:hover, .toolbar .modes .modes-mode.active, .footer .footer-middle .socials-wrap ul li:hover a, .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu > li:hover, .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu li.open, .wrap-newsletter-popup .fancybox-close, .owl-theme .owl-dots .owl-dot:hover span, .owl-theme .owl-dots .owl-dot.active span, .cart-container .cart.main.actions .action, .cart-container .cart.table-wrapper .actions-toolbar .action-edit:hover, .footer .footer-middle .block .title::before, .cms-home-style-1 .title-home::before, .title-view::before, .header-container .cart-wrapper .minicart-wrapper .block-content > .actions > a:hover, .detail-bottom-wrapper .product.data.items > .item.title::before, .detail-bottom-wrapper .product.data.items > .item.title:hover, .detail-bottom-wrapper .product.data.items > .item.title.active, .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu li.sm_megamenu_actived, .product-item-actions .secondary-addto-links a.action:hover, .product-item-actions a.btn-action:hover,  .product-social-links .action:hover, .product-addto-links .action:hover ,.products-grid .item .item-inner:hover .btn-cart, .products-list .item .item-inner .box-info-list .bottom-action .btn-action:hover, .about-us .social-member .social-icon a:hover, .cms-home-style-1 .home-style-1 .block-title::before, .footer .footer-top .block .content ul li:hover::before,.header-container .switcher .dropdown .switcher-dropdown .switcher-option:hover,.header-style-3 .header-bottom .headerbt-wrapper, .header-container .dropdown-block-custom .dropdown-list li:hover ,.home-style-3 .deal-wrapper .title-home h2,.home-style-3 .deal-wrapper .products-grid .deals-items .item-inner .deals-countdown .timer-product , .products-grid .item .item-inner .btn-action:hover,.client-wrapper-b .owl-nav div:hover,.home-style-3 .tabsproduct1-v3 .sm-listing-tabs .owl-nav > div:hover,.home-style-3 .deal-wrapper .owl-nav > div:hover,.products-grid .item .item-inner .btn-action.sm_quickview_handler , .products-grid .item .item-inner .btn-action:hover,.products-list .item .item-inner .box-info-list .bottom-action .btn-cart:hover, .products-list .item .item-inner .box-info-list .bottom-action .btn-cart:hover,body .block-popup-login .tt_popup_login strong, .cms-index-index.cms-home-style-1 .block .block-title:before,.subscribe-footer .block-subscribe-footer .block-content .actions button , .wrapper-top-content1 .deal-wrapper.oneitem .owl-stage-outer .deals-countdown .timer-product,.header-style-1 .sm-searchbox .actions button.action,.products-sidebar .block-title::before,.header-style-3 .header-bottom .headerbt-wrapper .menu-cart .yt-menu.menu-ontop,.toolbar .pages .pages-items .item.current strong,.toolbar .pages .pages-items .item a:hover,.product-details.box-up-sell .block-title::before,.review-form .action.submit.primary,.control-qty .control-qty .quantity-controls:hover,body .block-popup-login .block-content .btn-reg-popup,.header-style-2 .logo-wrapper,.header-style-2 .cart-wrapper .showcart,.col-home2 .sm_megamenu_wrapper_vertical_menu .block-title-menu,.col-home2 .block-subscribe button,.producttabs-bottom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs li.tab-sel span, .producttabs-bottom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs li:hover span,.blog-v2 .latest-blogs .item-blog .img-blog .sn-datev2, .header-style-1 .cart-wrapper .showcart .counter.qty .counter-number, .control.control-qty-cart .control-qty .quantity-controls:hover{
+	background-color: <?php echo $theme_color;?> !important;
+}
+
+.owl-controls .owl-nav div:hover::before,.sm-deals .owl-nav div:hover:before, .yt-menu .quicklinks ul li a:hover,.footer .footer-bottom .categories-footer .footer-links-w ul li a:hover,.topleft-content .fa, .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs li.tab-sel, .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs .ltabs-tab:hover, .breadcrumbs ul li:last-child strong, .footer .footer-middle .block .content > p.email a, .footer .footer-middle .block .content ul li a:hover, .footer .footer-middle .block.ft-category .content ul li a:hover, .footer .footer-middle .block.ft-category .content ul li a:after, .home-menu-dropdown .item-home-store li a:hover, .header-style-1 .header-container .cart-wrapper .minicart-wrapper .block-content .minicart-items-wrapper .minicart-items .product-item-details .product-item-name a:hover, .header-style-1 .header-container .switcher .dropdown .switcher-trigger strong:hover, .header-style-1 .header-style-1 .header-container .dropdown .dropdown-toggle > a:hover, .header-style-1 .header-container .dropdown .dropdown-toggle > a:hover::before, .header-style-1 .header-container .dropdown:hover .dropdown-toggle a, .header-style-1 .header-container .dropdown:hover .dropdown-toggle .value, .header-style-1 .header-container .dropdown.block-base .links li a::after, .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu_black li:hover div a:hover,  .latest-post-block .slider-latest-blog .slider-blog .item .blog-item-content .info-blog .action-post .btn-readmore, .block .block-content .filter-options-content .items li a:hover, .products-grid .item .item-inner .box-info .product-name a:hover, .product.media .fotorama__nav-wrap--horizontal .fotorama__thumb__arr--left .fotorama__thumb__arr:hover::before, .product.media .fotorama__nav-wrap--horizontal .fotorama__thumb__arr--right .fotorama__thumb__arr:hover:before ,.wrapper-top-content1 .policy-shop1 .content-policy:hover h2, .wrapper-top-content1 .policy-shop1 .content-policy:hover p,.header-container .dropdown-block-custom.block-myacount .dropdown-toggle:after,.navigation > .ui-menu > li:hover > a, .navigation > .ui-menu > li.has-active > a, .navigation > .ui-menu > li.active > a , .block-blog .inner-infomation h2 a:hover,.navigation ul li a.ui-state-active, .navigation ul li a.active, .navigation ul li a:hover,.sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu a.sm_megamenu_actived , .home-style-3 .tabsproduct1-v3 .sm-listing-tabs .block-title strong span , .home-style-3 .sm-imageslider .owl-nav > div::before, .header-top .custom.login:hover:before,.header-container .cart-wrapper .minicart-wrapper .product.actions .primary .action:hover,.home-style-3 .sm-imageslider .owl-nav > div:hover::before, .price-box .price , .tabsproduct1 .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li.tab-sel span, .tabsproduct1 .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li:hover span ,.navigation > .ui-menu .active > a, .navigation > .ui-menu .has-active > a ,.header-style-1 .search-form-action::before,.footer-top .content-block-footer li .fa,.header-style-3 .header-middle .search-form-action .actions button.action:hover:before,.info-box-detail .product-info-stock-sku .available span,.sm-megamenu-child .sm_megamenu_title > a.sm_megamenu_actived,.header-style-2 .sm-searchbox .actions button.action::before,.blog-bottomv-3 .panel-default .panel-heading a span:hover , .block-product-accordion .products-grid .panel-default .panel-heading a h2.panel-title:hover, .cms-home-style-1.cms-index-index .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a, .cms-home-style-2.cms-index-index .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a,.sm_megamenu_wrapper_vertical_menu .more-w .more-view:hover,.sm_megamenu_wrapper_vertical_menu .more-w .more-view:hover:before
+ {
+	color: <?php echo $theme_color;?> !important;
+}
+
+button:hover, .button:hover,.products-grid .item .item-inner .box-info .btn-action.btn-cart:hover,.subscribe-footer .block-subscribe-footer .block-content .actions button,.home-style-3 .deal-wrapper .title-home,.owl-theme .owl-dots .owl-dot:hover span,.owl-theme .owl-dots .owl-dot.active span,
+.cart-container .cart.table-wrapper .actions-toolbar .action-edit:hover,.cart-container .cart.table-wrapper .actions-toolbar .action-delete:hover,
+.about-us .about-image-slider .owl-controls .owl-nav div:hover,.products-grid .item .item-inner:hover .btn-cart,
+.footer .footer-top .social-footer .socials-wrap ul li:hover a,
+.header-style-1 .header-middle .header-bottom-right .search-header-bottom .search-header-content,
+.sm-super-categories .category-wrap .banner-c-brand .brand ul li a:hover,
+.brand-block .list-brands li a:hover,
+.detail-bottom-wrapper .product.data.items > .item.title:hover, .detail-bottom-wrapper .product.data.items > .item.title.active, .detail-bottom-wrapper .product.data.items > .item.title:before,.wrapper-top-content1 .policy-shop1 .content-policy:hover,
+.products-sidebar .item:hover,
+.block-collapsible-nav .item.current a, .block-collapsible-nav .item.current strong,
+.products-list .item .item-inner .box-image-list .sm_quickview_handler:hover,.products-list .item .item-inner:hover:before,
+.info-box-detail .product-options-bottom .box-tocart .fieldset .actions:active, .info-box-detail .product-add-form .box-tocart .fieldset .actions:active ,
+.cms-home-style-2 .littingtabs-bottom .ltabs-tabs-container ul.ltabs-tabs li:before,
+.cms-home-style-2 .littingtabs-bottom .ltabs-tabs-container ul.ltabs-tabs li:after ,
+.product.media .fotorama-item .fotorama__nav--thumbs .fotorama__nav__frame:before,
+.product.media .fotorama-item .fotorama__nav--thumbs .fotorama__nav__frame:hover,
+.product.media .fotorama-item .fotorama__nav--thumbs .fotorama__nav__frame.fotorama__active,
+.products-grid .item .item-inner .box-image .bottom-action-out .bottom-action .btn-action.btn-cart:hover, .products-grid .item .item-inner:hover:before,.footer .footer-middle .socials-wrap ul li:hover a, .product-item-actions .secondary-addto-links a.action, .product-item-actions a.btn-action , .ds-item.slick-current .ds-image-thumb::before, .ds-item:hover .ds-image-thumb:before, .ds-item.slick-current .ds-image-thumb, .ds-item:hover .ds-image-thumb,.products-grid .item .item-inner .box-info .btn-cart:hover ,  .product-social-links .action:hover,.product-addto-links .action:hover,.cms-home-style-1 .home-style-1 .listting-tabs-bestsell .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li:hover::before, .cms-home-style-1 .home-style-1 .listting-tabs-bestsell .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li.tab-sel::before,.cms-home-style-1 .home-style-1 .listting-tabs-bestsell .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li:hover:after, .cms-home-style-1 .home-style-1 .listting-tabs-bestsell .ltabs-wrap .ltabs-tabs-container ul.ltabs-tabs li.tab-sel:after,.sm-dealsslider.theme1,.sm-dealsslider:before , .home-style-3 .tabsproduct1-v3 .sm-listing-tabs .block-title,.client-wrapper-b .owl-nav div:hover,.products-grid .item .item-inner .btn-action:hover,.cms-index-index.cms-home-style-1 .block .block-title,.owl-controls .owl-nav div:hover,.products-sidebar .block-title,.products-list .item .item-inner .box-info-list .bottom-action .btn-action:hover,.toolbar .pages .pages-items .item.current strong,.toolbar .pages .pages-items .item a:hover,.product-details.box-up-sell .block-title ,body .block-popup-login .tt_popup_login,.header-style-2 .header-inner,.blog-v2 .latest-blogs .item-blog .img-blog,.producttabs-bottom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs li.tab-sel span, .producttabs-bottom .sm-listing-tabs .ltabs-tabs-container .ltabs-tabs li:hover span
+{
+	border-color: <?php echo $theme_color;?> !important;
+}
+
+.block .block-content.filter-content,.product-details.box-related .products-grid,.col-home2 .sm_megamenu_wrapper_vertical_menu .block-title-menu::after{
+	border-top-color: <?php echo $theme_color;?> !important;
+}
+
+body .block-popup-login .tt_popup_login strong::before , .producttabs-bottom .sm-listing-tabs .block-title strong,.col-home2 .deal-wrapper.oneitem .title-home h2{
+	border-bottom-color: <?php echo $theme_color;?> !important;
+}
+
+.cart-container .cart.main.actions .action:hover,
+.login-container .block-customer-login a.action.create.primary:hover, .login-container .block-new-customer a.action.create.primary:hover,
+.header-style-1 .header-middle .header-bottom-right .search-header-bottom .search-header-content .actions:hover button.action.search,
+.header-container .cart-wrapper .minicart-wrapper .block-content > .actions .viewcart:hover, 
+.header-container .cart-wrapper .minicart-wrapper .block-content > .actions .checkout:hover,.products-grid .item .item-inner .box-info .btn-action.btn-cart:hover, .home-style-3 .deal-wrapper .products-grid .deals-items .item-inner .deals-countdown .timer-product .time-mins , .wrapper-top-content1 .deal-wrapper.oneitem .owl-stage-outer .deals-countdown .timer-product .time-mins{
+	background-color: <?php echo $color_theme_active;?> !important;
+}
+ 
+.page-deals ,  .header-style-2 .header-container .cart-wrapper .showcart:before {
+	background-color: <?php echo $color_theme_bold;?> !important;
+}
+
+.color-theme,.footer  .block .content > p.email a:hover, .latest-post-block .slider-latest-blog .slider-blog .item .blog-item-content .info-blog .action-post .btn-readmore:hover, .header-style-2 .header-bottom .header-bottom-right .search-header-bottom .search-header-content .actions:hover button.action.search::before, .breadcrumbs ul li a:hover,.header-style-2  .sm_megamenu_wrapper_vertical_menu .sm_megamenu_menu div.sm_megamenu_actived > a, .header-style-2 .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu li a.sm_megamenu_top_actived, .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li.sm_megamenu_actived > a, .sm-megamenu-child .sm_megamenu_title > a:hover, .cms-home-style-2 .header-style-2 .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li > a.items-home,.cms-home-style-1 .header-style-1 .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li > a.items-home, .slick-arrow:hover:before, .cms-home-style-1 .home-style-1 .block-title::after, .block-bottom-home1 .block-blog .slider-blog-home1 .inner-infomation .date-time, .block-bottom-home1 .block-blog .slider-blog-home1 .inner-infomation .comemt-view .view-more a:hover, .cms-home-style-1 .home-style-1 .block-title span, .footer .footer-top .block .content ul li a:hover 
+{
+	color: <?php echo $theme_color;?> !important;
+}
+
+#yt-totop:hover,
+.modal-footer button.action-primary.action-accept:hover ,.header-style-3 .header-bottom .headerbt-wrapper .block-title-menu , .wrapper-top-content1 .deal-wrapper.oneitem .owl-stage-outer .deals-countdown  .deals-time .time-mins{
+	background-color: <?php echo $color_theme_active;?>;
+}
+
+.label-product.label-new:before {
+	 border-color: <?php echo $theme_color;?> transparent transparent transparent !important;
+}
+
+/*========
+Index 4
+================*/
+.header-style-4 .header-middle, .header-style-4 .header-top, .cms-home-style-4 .block .block-title:before, .header-style-4 .header-container .menu-ontop{
+	background-color: <?php echo $theme_color;?> !important;
+}
+.footer-style2 .social-footer .socials-wrap ul li a , .header-style-4 .header-bottom {background-color: <?php echo $color_theme_active;?>;}
+.cms-home-style-4 .block .block-title {
+	border-color: <?php echo $theme_color;?> !important;
+}
+.cms-home-style-4 .wrapper-slider4 .deal-wrapper.oneitem .box-head {
+	background-color: <?php echo $color_theme_bold;?>;
+}
+
+/*==================
+Index 5
+============*/
+.header-style-5.header-container .mainmenu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:hover > a,
+.cms-home-style-5.cms-index-index .sm-listing-tabs .ltabs-items-container .products-grid .item-inner .box-info .product-name a:hover , 
+.cms-home-style-5.cms-index-index .header-style-5.header-container .mainmenu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a, 
+.cms-home-style-5.cms-index-index .header-style-5.header-container .mainmenu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a:before {
+	color: <?php echo $theme_color;?> !important;
+}
+.header-style-5 .icon-action-top:hover, .products-grid .item-inner.style1 .box-image .action-bottom .btn-action:hover  {
+	background-color: <?php echo $theme_color;?> !important;
+}
+
+/*========
+Index 6
+=========*/
+.footer-style4 .footer-bottom .block .content-block-footer ul li a:hover , .ft-callus-top .fa,
+.header-style-6.header-container .header-bottom .mainmenu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:hover > a,.header-style-6.header-container .header-bottom .mainmenu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a,
+.header-style-6.header-container .header-top .header-search5:hover .icon-search .fa,.header-style-6.header-container .header-top .minicart-wrapper:hover .showcart::after,
+.header-style-6.header-container .header-top .block-topsetting:hover .dropdown-toggle .fa
+{color: <?php echo $theme_color;?> !important;}
+.cms-home-style-6.cms-index-index .slider-basic-style .products-grid .item-inner .box-image .action-bottom .btn-action:hover, 
+.header-style-6.header-container .header-bottom .socials-wrap ul li a:hover, .header-style-6.header-container .header-top .minicart-wrapper .showcart .counter .counter-number {background-color: <?php echo $theme_color;?> !important;}
+/*===========
+index7
+=========*/
+.footer-style5 .social-footer .socials-wrap ul li a:hover, .header-style-7 .yt-menu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li > a:hover,
+.header-style-7 .yt-searchpro .btn-search-mobilev2:hover:before, .cms-index-index .header-style-7 .yt-menu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a,
+.cms-index-index .header-style-7 .yt-menu .sm_megamenu_wrapper_horizontal_menu .sm_megamenu_menu > li:first-child > a:before
+{
+	color: <?php echo $theme_color;?> !important;
+}
+</style>
